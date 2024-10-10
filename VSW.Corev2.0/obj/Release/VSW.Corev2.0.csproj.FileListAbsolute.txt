@@ -1,0 +1,12 @@
+D:\web\denlegiare\VSW.Corev2.0\bin\Release\VSW.Corev2.0.dll
+D:\web\denlegiare\VSW.Corev2.0\bin\Release\VSW.Corev2.0.pdb
+D:\web\denlegiare\VSW.Corev2.0\obj\Release\VSW.Corev2.0.csproj.AssemblyReference.cache
+D:\web\denlegiare\VSW.Corev2.0\obj\Release\VSW.Corev2.0.csproj.CoreCompileInputs.cache
+D:\web\denlegiare\VSW.Corev2.0\obj\Release\VSW.Corev2.0.dll
+D:\web\denlegiare\VSW.Corev2.0\obj\Release\VSW.Corev2.0.pdb
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\bin\Release\VSW.Corev2.0.dll
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\bin\Release\VSW.Corev2.0.pdb
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\obj\Release\VSW.Corev2.0.csproj.AssemblyReference.cache
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\obj\Release\VSW.Corev2.0.csproj.CoreCompileInputs.cache
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\obj\Release\VSW.Corev2.0.dll
+D:\web\code_lam\homeled.vn\VSW.Corev2.0\obj\Release\VSW.Corev2.0.pdb
