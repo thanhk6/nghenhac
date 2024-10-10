@@ -1,12 +1,12 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Code by hung.nguyen.1412@gmail.com")]
+[assembly: AssemblyTitle("Code by nghenhac@gmail.com")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("IT")]
 [assembly: AssemblyProduct("VSW.Website")]
-[assembly: AssemblyCopyright("Copyright © hung.nguyen.1412@gmail.com 2014")]
+[assembly: AssemblyCopyright("Copyright © nghenhac@gmail.com 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
