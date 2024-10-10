@@ -1,0 +1,1076 @@
+Time : 30/06/2020 02:37:07
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?atr=576
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 02:37:07
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?atr=576
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:42:39
+IP : ::1
+URL : http://localhost:12347/
+Message : g:\webviet\khoinguyen\VSW.Website\Views\CMenu\Top.ascx(198): error CS1002: ; expected
+Source : System.Web
+TargetSite : Void ProcessRequestMain(Boolean, Boolean)
+StackTrace :    at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:42:39
+IP : ::1
+URL : http://localhost:12347/
+Message : g:\webviet\khoinguyen\VSW.Website\Views\CMenu\Top.ascx(198): error CS1002: ; expected
+Source : System.Web
+TargetSite : Void ProcessRequestMain(Boolean, Boolean)
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:42:39
+IP : ::1
+URL : http://localhost:12347/
+Message : g:\webviet\khoinguyen\VSW.Website\Views\CMenu\Top.ascx(198): error CS1002: ; expected
+Source : System.Web
+TargetSite : Void ProcessRequestMain(Boolean, Boolean)
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:42:39
+IP : ::1
+URL : http://localhost:12347/
+Message : g:\webviet\khoinguyen\VSW.Website\Views\CMenu\Top.ascx(198): error CS1002: ; expected
+Source : System.Web
+TargetSite : Void ProcessRequestMain(Boolean, Boolean)
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:43:44
+IP : ::1
+URL : http://localhost:12347/
+Message : g:\webviet\khoinguyen\VSW.Website\Views\CMenu\Top.ascx(198): error CS1002: ; expected
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:44:21
+IP : ::1
+URL : http://localhost:12347/may-loc-nuoc.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 02:44:39
+IP : ::1
+URL : http://localhost:12347/chau-rua-bat.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 03:10:35
+IP : ::1
+URL : http://localhost:12347/chau-rua-bat.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 03:21:12
+IP : ::1
+URL : http://localhost:12347/thiet-bi-nha-bep.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 04:00:31
+IP : ::1
+URL : http://localhost:12347/voi-xit.html
+Message : CurrentModule = null
+Source : VSW.Corev2.0
+TargetSite : Void thanhhung_6()
+StackTrace :    at VSW.Core.MVC.ViewPage.thanhhung_6()
+   at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 04:07:23
+IP : ::1
+URL : http://localhost:12347/thiet-bi-nha-bep.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture()
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in g:\webviet\khoinguyen\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.z4s8oswy.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 05:09:42
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:34:45
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:05
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:21
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:25
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:26
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:26
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:26
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:27
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:27
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:35:28
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:36:32
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:36:40
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:02
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:04
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:45
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:47
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:47
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:38:52
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:41:02
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=576-price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:41:07
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=576-price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:41:07
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=576
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 09:41:08
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=576-price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:13
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=new_asc&atr=new_asc
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:13
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=new_asc&atr=new_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:14
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:14
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:16
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=view_desc&atr=view_desc
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:16
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=view_desc&atr=view_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:17
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:17
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:19
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:20
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:21
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=price_desc&atr=price_desc
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:21
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=price_desc&atr=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:22
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:22
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:28
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=view_desc&atr=view_desc
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:28
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=view_desc&atr=view_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:29
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in G:\webviet\khoinguyen\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_14(Control control)
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.InitPage(Control control)
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 30/06/2020 11:36:29
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html?page=1&sort=&atr=
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\pc\AppData\Local\Temp\Temporary ASP.NET Files\vs\4e775543\493849d0\App_Web_default.aspx.cdcab7d2.tyy7ypzv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/06/2020 11:36:37
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:37
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:38
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:39
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:39
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:36:40
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:19
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:20
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:20
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:21
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:24
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:25
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:25
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=price_asc&atr=price_asc
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 30/06/2020 11:39:26
+IP : ::1
+URL : http://localhost:12347/dieu-hoa.html ?page=1&sort=&atr=
+Message : 
+Source : System.Web
+TargetSite : Void CheckSuspiciousPhysicalPath(System.String)
+StackTrace :    at System.Web.Util.FileUtil.CheckSuspiciousPhysicalPath(String physicalPath)
+   at System.Web.CachedPathData.ValidatePath(String physicalPath)
+   at System.Web.HttpContext.ValidatePath()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+

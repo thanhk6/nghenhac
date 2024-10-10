@@ -1,0 +1,160 @@
+Time : 25/05/2024 09:41:23
+IP : ::1
+URL : http://localhost:12348/tn/Default.aspx
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:41:23
+IP : ::1
+URL : http://localhost:12348/favicon.ico
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:43:52
+IP : ::1
+URL : http://localhost:12348/tn/Default.aspx
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:43:52
+IP : ::1
+URL : http://localhost:12348/favicon.ico
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:44:28
+IP : ::1
+URL : http://localhost:12348/tn/Default.aspx
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:44:28
+IP : ::1
+URL : http://localhost:12348/favicon.ico
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:45:04
+IP : ::1
+URL : http://localhost:12348/tn/Default.aspx
+Message : Cannot open database "homled.vn" requested by the login. The login failed.
+Login failed for user 'sa'.
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:45:04
+IP : ::1
+URL : http://localhost:12348/favicon.ico
+Message : Cannot open database "homled.vn" requested by the login. The login failed.
+Login failed for user 'sa'.
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 133
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/05/2024 09:45:46
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+

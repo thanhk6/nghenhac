@@ -1,0 +1,34 @@
+Time : 10/02/2022 01:22:02
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/SysPage/Add.aspx/RecordID/9550/ParentID/7538
+Message : Invalid column name 'FileBrand'.
+SQLText : UPDATE [Sys_Page] SET [TemplateID]=@TemplateID, [TemplateMobileID]=@TemplateMobileID, [TemplateTabletID]=@TemplateTabletID, [ModuleCode]=@ModuleCode, [LangID]=@LangID, [MenuID]=@MenuID, [BrandID]=@BrandID, [ParentID]=@ParentID, [State]=@State, [Name]=@Name, [Code]=@Code, [File]=@File, [FileBrand]=@FileBrand, [Summary]=@Summary, [TopContent]=@TopContent, [Content]=@Content, [LinkTitle]=@LinkTitle, [PageTitle]=@PageTitle, [PageHeading]=@PageHeading, [PageDescription]=@PageDescription, [PageKeywords]=@PageKeywords, [PageCanonical]=@PageCanonical, [Custom]=@Custom, [Created]=@Created, [Updated]=@Updated, [Order]=@Order, [Activity]=@Activity, [Icon]=@Icon, [ShowMenuTop]=@ShowMenuTop, [ChooseMenu]=@ChooseMenu WHERE [ID]=9550
+SQLParameters : @TemplateID=1047, @TemplateMobileID=0, @TemplateTabletID=0, @ModuleCode=MProduct, @LangID=1, @MenuID=1457, @BrandID=0, @ParentID=7538, @State=0, @Name=Treo khăn tắm, @Code=treo-khan-tam, @File=/Data/upload/images/Anh%20trang%20tri%20web/Thumbnail%20san%20pham/Chung%20loai/Thiet%20bi%20ve%20sinh/Phu%20kien%20nha%20tam/b078ad30ef1e0c6ed979f6cb74cb200c96c09976_original.jpeg, @FileBrand=, @Summary=, @TopContent=, @Content=, @LinkTitle=, @PageTitle=, @PageHeading=, @PageDescription=, @PageKeywords=, @PageCanonical=, @Custom=, @Created=09/03/2021 2:02:55 CH, @Updated=10/02/2022 1:22:02 SA, @Order=6, @Activity=True, @Icon=, @ShowMenuTop=False, @ChooseMenu=False, 
+Source : VSW.Corev2.0
+TargetSite : Int32 ExecuteNonQuery(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteNonQuery(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 38
+   at VSW.Core.Data.SQL.Update(String connectionString, String tableName, String whereClause, Object[] fields) in D:\khoinguyen\VSW.Corev2.0\Data\SQL.cs:line 54
+   at VSW.Core.Models.ServiceBase`1.Update(String whereClause, Object[] fields) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 368
+   at VSW.Core.Models.ServiceBase`1.Save(T item, String[] propertyExec, String[] propertyNotExec, Dictionary`2 customField) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 238
+   at VSW.Core.Models.ServiceBase`1.Save(T item, Expression`1 propertyExec, Expression`1 propertyNotExec, Dictionary`2 customFields) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 293
+   at VSW.Core.Models.ServiceBase`1.Save(T item) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 265
+   at VSW.Lib.CPControllers.SysPageController.ValidSave(SysPageModel model) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\CPControllers\SysPageController.cs:line 222
+
+
+Time : 10/02/2022 01:22:30
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/SysPage/Add.aspx/RecordID/9550/ParentID/7538
+Message : Invalid column name 'FileBrand'.
+SQLText : UPDATE [Sys_Page] SET [TemplateID]=@TemplateID, [TemplateMobileID]=@TemplateMobileID, [TemplateTabletID]=@TemplateTabletID, [ModuleCode]=@ModuleCode, [LangID]=@LangID, [MenuID]=@MenuID, [BrandID]=@BrandID, [ParentID]=@ParentID, [State]=@State, [Name]=@Name, [Code]=@Code, [File]=@File, [FileBrand]=@FileBrand, [Summary]=@Summary, [TopContent]=@TopContent, [Content]=@Content, [LinkTitle]=@LinkTitle, [PageTitle]=@PageTitle, [PageHeading]=@PageHeading, [PageDescription]=@PageDescription, [PageKeywords]=@PageKeywords, [PageCanonical]=@PageCanonical, [Custom]=@Custom, [Created]=@Created, [Updated]=@Updated, [Order]=@Order, [Activity]=@Activity, [Icon]=@Icon, [ShowMenuTop]=@ShowMenuTop, [ChooseMenu]=@ChooseMenu WHERE [ID]=9550
+SQLParameters : @TemplateID=1047, @TemplateMobileID=0, @TemplateTabletID=0, @ModuleCode=MProduct, @LangID=1, @MenuID=1457, @BrandID=0, @ParentID=7538, @State=0, @Name=Treo khăn tắm, @Code=treo-khan-tam, @File=/Data/upload/images/Anh%20trang%20tri%20web/Thumbnail%20san%20pham/Chung%20loai/Thiet%20bi%20ve%20sinh/Phu%20kien%20nha%20tam/b078ad30ef1e0c6ed979f6cb74cb200c96c09976_original.jpeg, @FileBrand=/Data/upload/images/adv/1(1).png, @Summary=, @TopContent=, @Content=, @LinkTitle=, @PageTitle=, @PageHeading=, @PageDescription=, @PageKeywords=, @PageCanonical=, @Custom=, @Created=09/03/2021 2:02:55 CH, @Updated=10/02/2022 1:22:30 SA, @Order=6, @Activity=True, @Icon=, @ShowMenuTop=False, @ChooseMenu=False, 
+Source : VSW.Corev2.0
+TargetSite : Int32 ExecuteNonQuery(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteNonQuery(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 38
+   at VSW.Core.Data.SQL.Update(String connectionString, String tableName, String whereClause, Object[] fields) in D:\khoinguyen\VSW.Corev2.0\Data\SQL.cs:line 54
+   at VSW.Core.Models.ServiceBase`1.Update(String whereClause, Object[] fields) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 368
+   at VSW.Core.Models.ServiceBase`1.Save(T item, String[] propertyExec, String[] propertyNotExec, Dictionary`2 customField) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 238
+   at VSW.Core.Models.ServiceBase`1.Save(T item, Expression`1 propertyExec, Expression`1 propertyNotExec, Dictionary`2 customFields) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 293
+   at VSW.Core.Models.ServiceBase`1.Save(T item) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 265
+   at VSW.Lib.CPControllers.SysPageController.ValidSave(SysPageModel model) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\CPControllers\SysPageController.cs:line 222
+
+

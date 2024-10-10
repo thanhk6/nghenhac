@@ -1,0 +1,340 @@
+Time : 08/01/2022 07:46:41
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 08/01/2022 07:47:05
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 08/01/2022 07:47:30
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 08/01/2022 07:47:30
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/01/2022 12:49:11
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 20 [ID],[MenuID],[Name],[File],[Price],[Price2],[View],[Code],[Order],[Activity] FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=8) AND ([MenuID] IN (48,251,320,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 21
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 365
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 317
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 287
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 525
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/01/2022 12:49:11
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/01/2022 12:49:46
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/01/2022 12:50:21
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/01/2022 12:56:16
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 20 [ID],[MenuID],[Name],[File],[Price],[Price2],[View],[Code],[Order],[Activity] FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=8) AND ([MenuID] IN (48,251,320,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 21
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 365
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 317
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 287
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 525
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/01/2022 12:56:16
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/01/2022 12:58:21
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cachemmobil() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 321
+   at VSW.Lib.Models.SysPageService.GetByParent_Cachemobile(Int32 parentID) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 248
+   at VSW.Lib.Controllers.CMenuController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CMenuController.cs:line 34
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 365
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 317
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 287
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 525
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/01/2022 12:58:21
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hi9biz5f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 19/01/2022 05:09:14
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT [Name],[MenuID],[Code],[File],[Price],[Price2],[Order],[Activity] FROM [Mod_Product] with (NOLOCK)  WHERE (([Activity]=1) AND ([ID]<>7024)) AND ([MenuID] IN (1387)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.MProductController.ActionDetail(String endCode) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MProductController.cs:line 105
+
+
+Time : 19/01/2022 05:09:14
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 37
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 484
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 236
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.wdev1fhf.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.wdev1fhf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

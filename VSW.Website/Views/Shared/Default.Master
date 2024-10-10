@@ -1,0 +1,226 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.UI.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>" xml:lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>">
+<head id="Head" runat="server">
+    <title></title>
+    <meta id="description" name="description" content="" runat="server" />
+    <meta id="keywords" name="keywords" content="" runat="server" />
+    <link id="canonical_name" name="canonical_name" rel="canonical" href="" runat="server" />
+    <!-- Schema.org markup for Google+ -->
+    <meta id="schema_name" name="schema_name" itemprop="name" content="" runat="server" />
+    <meta id="schema_description" name="schema_description" itemprop="description" content="" runat="server" />
+    <meta id="schema_image" name="schema_image" itemprop="image" content="" runat="server" />
+    <!-- Open Graph data -->
+    <meta id="og_title" name="og_title" property="og:title" content="" runat="server" />
+    <meta id="og_url" name="og_url" property="og:url" content="" runat="server" />
+    <meta id="og_image" name="og_image" property="og:image" content="" runat="server" />
+    <meta id="og_description" name="og_description" property="og:description" content="" runat="server" />
+    <meta property="og:site_name" content="bep68.vn" />
+  <%--  <meta property="fb:app_id" content="732073643588940" />--%>
+    <meta property="og:type" name="og_type" content="article" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="article:author" content="https://www.facebook.com/thietbi.bep.nhapkhau.bep68" />
+    <meta property="article:publisher" content="https://www.facebook.com/thietbi.bep.nhapkhau.bep68" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="author" content="bep68.vn" />
+    <meta name="copyright" content="Copyright &copy;0964153988" />
+    <meta name="generator" content="bep68.vn" />
+    <meta name="language" content="vietnamese" />
+    <meta name="geo.region" content="Vietnamese" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-site-verification" content="4OsEZTk2LuSPNKXW53GV0aD2_RaURCp8qmWvBpaNl2w" />
+    <link href="/Content/desktop/css/images/favicion.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link type="html/sandboxed" href="/Content/utils/sweetalert/sweetalert.min.css"/>
+    <!--
+		============================================ -->
+    <!-- all css here -->
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="/Content/desktop/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Content/desktop/css/bootstrap.min.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="/Content/desktop/css/animate.css">
+    <!-- pe-icon-7-stroke -->
+    <link rel="stylesheet" href="/Content/desktop/css/pe-icon-7-stroke.min.css" />
+    <!-- fotorama -->
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/css/font-akr.css" />
+    <link rel="stylesheet" href="/Content/desktop/css/fotorama.css" />
+    <!-- jquery-ui.min css -->
+    <link rel="stylesheet" href="/Content/desktop/css/jquery-ui.min.css" />
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="/Content/desktop/css/owl.carousel.css" />
+    <!-- font-awesome css -->
+    <link href="/Content/desktop/css/mega-menu.css" rel="stylesheet" />
+    <!-- style css -->
+    <link rel="stylesheet" href="/Content/desktop/css/style.css" />
+    <link rel="stylesheet" href="/Content/desktop/css/style_new.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="/Content/desktop/css/responsive.css" />
+    <link rel="stylesheet" href="/Content/desktop/css/reponsive_new.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/css/slick.css" />
+    <link href="/Content/utils/sweetalert/sweetalert.min.css" rel="stylesheet" />
+    <link href="/Content/utils/swiper/swiper.min.css" rel="stylesheet" />
+    <%-- <meta name="google-site-verification" content="Vrketex9IIqnSF_T93vCH2NxEYzL_bdwTqWEl-47Uug" />--%>
+    <VSW:StaticControl Code="CStatic" VSWID="dynamicremarketin" DefaultLayout="dynamicremarketing" runat="server" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175189657-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-175189657-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TDD3SC2');</script>
+    <!-- End Google Tag Manager -->
+    {RS:Tag_Header}
+</head>
+<body id="body">
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML73NRB"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDD3SC2"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <form id="vswForm" runat="server">
+        <!-- header section start -->
+        <header id="header">
+            <VSW:StaticControl Code="CStatic" VSWID="CSttaticHeader" runat="server" />
+            <div class="TopMenu">
+                <div class="container container100">
+                    <div class="row">
+                        <VSW:StaticControl Code="CAdv" VSWID="CAdvLogo" runat="server" />
+                        <VSW:StaticControl Code="CMenu" VSWID="CMenuTop" runat="server" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <VSW:DynamicControl Code="Main" runat="server" />
+        <footer id="footer">
+            <VSW:StaticControl Code="CStatic" VSWID="CStaticContact" runat="server" />
+            <%-- <VSW:StaticControl Code="CShowroom" VSWID="vswCShowroomHome" runat="server" />--%>
+            <section class="list-menu-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="mg14">
+                            <VSW:StaticControl Code="CMenu" VSWID="CMenuAboutTheKitchen" runat="server" />
+                            <VSW:StaticControl Code="CMenu" VSWID="CMenuCustomerSupport" runat="server" />
+                            <VSW:StaticControl Code="CMenu" VSWID="CMenuPurchasePolicy" runat="server" />
+                            <VSW:StaticControl Code="CStatic" VSWID="CStaticSupportSwitchboard" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <VSW:StaticControl Code="CAdv" VSWID="CAdvPartner" runat="server" />
+            <VSW:StaticControl Code="CShowroom" VSWID="vswCShowroomHome" runat="server" />
+            <!-- footer-bottom area start -->
+            <VSW:StaticControl Code="CStatic" VSWID="vswcstaticFooterbotom" runat="server" />
+            <!-- footer-bottom area end -->
+        </footer>
+        <!-- scrollup -->
+        <a href="#" class="scrollup">Top</a>
+        <!-- end -->
+        <!-- menu icon left -->
+        <div class="menu-icon-left hidden-sm hidden-xs" style="display: none">
+            <ul>
+                <li><a href="/">Trang chủ <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="tel:{RS:hotline}">Liên hệ <i class="fa fa-phone-square" aria-hidden="true"></i></a></li>
+                <li><a href="gio-hang.html" target="_blank">Giỏ hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <li><a href="{RS:link_facebok}" target="_blank">Facebook <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="{RS:link_Instagram}" target="_blank">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="{RS:link_Youtube}" target="_blank">Youtube <i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <script src="/Content/js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="/Content/js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="/Content/js/owl.carousel.min.js"></script>
+        <!--Content/desktop/ Zoom js -->
+        <%--  <script src="/Content/js/img-zoom/zoomsl.js"></script>--%>
+        <!-- jquery-ui js -->
+        <script src="/Content/js/jquery-ui.min.js"></script>
+        <!-- fotorama js -->
+        <script src="/Content/js/fotorama.js"></script>
+        <!-- main js -->
+        <script src="/Content/js/main.js"></script>
+        <script src="/Content/js/slick.min.js"></script>
+        <script type="text/javascript" src="/Content/js/app.pack.js"></script>
+        <script src="/Content/js/data.ajax.js"></script>
+        <script src="/Content/js/library.js"></script>
+        <script src="/Content/js/google.map.js"></script>
+        <script src="/Content/utils/swiper/swiper.min.js"></script>
+        <script src="//maps.google.com/maps/api/js?libraries=geometry&callback=init"></script>
+        <script type="text/javascript" src="/Content/js/appear.js"></script>
+        <VSW:StaticControl Code="CAdv" VSWID="cadvPupup" runat="server" />
+        {RS:subiz}   
+        <script>
+ <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML73NRB"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+        </script>
+        <!-- End Google Tag Manager (noscript) -->
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1534098560114615');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display: none"
+                src="https://www.facebook.com/tr?id=1534098560114615&ev=PageView&noscript=1" />
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+    </form>
+
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1214358042313391');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1214358042313391&ev=PageView&noscript=1" />
+    </noscript>
+</body>
+</html>

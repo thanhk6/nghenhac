@@ -1,0 +1,1785 @@
+Time : 04/11/2021 10:13:39
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cachemmobil() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Lib.Models.SysPageService.GetByParent_Cachemobile(Int32 parentID) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 254
+   at VSW.Lib.Controllers.CMenuController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CMenuController.cs:line 31
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 04/11/2021 10:13:40
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:13:55
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=3; handshake=15006; 
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 215
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:20
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 20 * FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=6) AND ([MenuID] IN (48,251,320,336,337,338,339,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 28
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 04/11/2021 10:14:20
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:21
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 215
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:24
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 20 * FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=6) AND ([MenuID] IN (48,251,320,336,337,338,339,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 28
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 04/11/2021 10:14:24
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:24
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 20 * FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=6) AND ([MenuID] IN (48,251,320,336,337,338,339,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 28
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 04/11/2021 10:14:24
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:24
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 215
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:58
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 20 * FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=6) AND ([MenuID] IN (48,251,320,336,337,338,339,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 28
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 04/11/2021 10:14:58
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 04/11/2021 10:14:59
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 215
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.hhxjhhc0.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:52
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:53
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:54
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:55
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:56
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:51:56
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:19
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:19
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:19
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:19
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:19
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 06/11/2021 11:56:28
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 589
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 06/11/2021 11:56:28
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.evow2yjc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:56:59
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 589
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:56:59
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.3cafo0tn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:58:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 589
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:58:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.3cafo0tn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:58:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 589
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:58:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.3cafo0tn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:58:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 589
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:58:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.3cafo0tn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 654
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:59:37
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.y-b2i06f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 654
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:59:44
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.y-b2i06f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:59:56
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 654
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:59:56
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.y-b2i06f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 07/11/2021 12:59:58
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 654
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 07/11/2021 12:59:58
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.y-b2i06f.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:48:38
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:52:55
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:52:55
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:52:55
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:52:55
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2021 11:52:56
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:28:03
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cs735de2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 10/11/2021 12:39:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-treo-tuong-toto-cw822ra-tc385vs.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:15:20
+IP : ::1
+URL : http://localhost:12347/bon-cau-toto.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:44
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:44
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:44
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2021 05:27:45
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 11:55:04
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 01:34:28
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 01:34:28
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 01:34:28
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2021 01:34:28
+IP : ::1
+URL : http://localhost:12347/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 21/11/2021 01:47:43
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:47:43
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:48:21
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:48:21
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:49:17
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:49:17
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:49:51
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:49:51
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:50:33
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:50:33
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:50:36
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:50:36
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:51:04
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:51:04
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:51:05
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:51:05
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 01:53:59
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 404
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 282
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 292
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 526
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2021 01:53:59
+IP : ::1
+URL : http://localhost:12347/rss.rss
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.bdcdce4c.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2021 05:11:47
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cw823rae2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 21/11/2021 05:11:47
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cw823rae2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 21/11/2021 05:11:47
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cw823rae2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 21/11/2021 05:11:47
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cw823rae2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 21/11/2021 05:11:47
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-tu-rua-co-toto-cw823rae2.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+

@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="VSW.Lib.MVC.CPViewTemplate" %>
+
+<%@ Register Src="MenuTop.ascx" TagName="MenuTop" TagPrefix="VSW" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <title>Administration</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="hung.nguyen.1412@gmail.com" />
+    <meta name="generator" content="webviet24h.com" />
+
+    <link rel="shortcut icon" href="/{CPPath}/Content/skins/images/favicon.png" type="image/x-icon" />
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript"> window.jQuery || document.write("<script src=\"//code.jquery.com/jquery-1.11.3.min.js\">\x3C/script>")</script>
+    <script type="text/javascript"> window.jQuery || document.write("<script src=\"/{CPPath}/Content/add/js/jquery.min.js\">\x3C/script>")</script>
+
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/nprogress/nprogress.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/sweetalert/sweetalert.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/datepicker/datepicker.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/select2/select2.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/select2/select2-bootstrap.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/extend-style.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/custom.css" type="text/css" media="all" />
+    
+    <script type="text/javascript" src="/{CPPath}/Content/ckfinder/ckfinder.js"></script>
+    <script type="text/javascript">
+        var CPPath = "{CPPath}";
+        var Sys_SiteID = "<%=VSW.Core.Web.Setting.Sys_SiteID %>";
+    </script>
+
+</head>
+<body id="minwidth-body">
+    <form id="vswForm" runat="server">
+
+        <div class="sidebar-overlay"></div>
+        <aside id="sidebar" class="sidebar sidebar-fixed-left" role="navigation">
+            <div class="nav-mobie"></div>
+        </aside>
+        <div class="Wrapper">
+            <header id="header" class="page-header">
+                <div class="container-fluid d-flex-wrap">
+                    <div class="sidebar-toggle-btn hidden-lg hidden-xl"><i class="fa fa-align-justify"></i></div>
+                    <div class="logo">
+                        <a href="/{CPPath}/">
+                          <%--  <img src="/{CPPath}/Content/skins/images/logo.png" alt="" />--%>
+                        </a>
+                    </div>
+
+                    <VSW:MenuTop runat="server" />
+                    
+                    <div class="top-menu">
+                        <ul class="nav">
+                            <li class="dropdown-user">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                    <img src="/{CPPath}/Content/skins/images/avatar3_small.jpg" class="userimg" alt="" />
+                                    <span class="username"><%= CPViewPage.CurrentUser.LoginName %></span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="/{CPPath}/Tools/Sitemap.aspx">
+                                            <i class="icon-map"></i>Submit sitemap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/{CPPath}/UserChangeInfo.aspx">
+                                            <i class="icon-user"></i>Thông tin tài khoản
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/{CPPath}/UserChangePass.aspx">
+                                            <i class="icon-lock"></i>Đổi mật khẩu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/{CPPath}/Home/Logout.aspx">
+                                            <i class="icon-logout"></i>Thoát
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-main">
+                <asp:ContentPlaceHolder ID="cphMain" runat="server"></asp:ContentPlaceHolder>
+            </main>
+            <footer id="footer">
+                <p class="copyright">
+                    Copyright © <%=DateTime.Now.Year %> 0964153988.
+                </p>
+            </footer>
+        </div>
+        <div class="back-to-top"><a href="javascript:void(0)"><span class="fa fa-angle-up fa-2x"></span></a></div>
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="/{CPPath}/Content/skins/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/{CPPath}/Content/utils/nprogress/nprogress.js"></script>
+        <script type="text/javascript" src="/{CPPath}/Content/utils/datepicker/datepicker.min.js"></script>
+        <script type="text/javascript" src="/{CPPath}/Content/utils/select2/select2.min.js"></script>
+
+        <script type="text/javascript" src="/{CPPath}/Content/skins/js/app.pack.js"></script>
+        <script type="text/javascript" src="/{CPPath}/Content/skins/js/data.ajax.js"></script>
+        <script type="text/javascript" src="/{CPPath}/Content/skins/js/library.js"></script>
+
+        <script type="text/javascript" src="/{CPPath}/Content/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript">
+            CKFinder.setupCKEditor(null, { basePath: "/{CPPath}/Content/ckfinder/", rememberLastFolder: true });
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,176 @@
+Time : 25/12/2022 09:29:07
+IP : ::1
+URL : http://localhost:12348/tn/Default.aspx
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\denlegiare\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\denlegiare\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\denlegiare\denledgiare\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\denlegiare\denledgiare\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/12/2022 09:29:23
+IP : ::1
+URL : http://localhost:12348/favicon.ico
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Web_Redirection] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\web\denlegiare\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\denlegiare\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\denlegiare\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Web.Application.Redirection() in D:\web\denlegiare\denledgiare\VSW.Lib\Web\Application.cs:line 20
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\denlegiare\denledgiare\VSW.Lib\Web\Application.cs:line 76
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/12/2022 10:57:19
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : The request was aborted: Could not create SSL/TLS secure channel.
+Source : System
+TargetSite : System.Net.WebResponse GetResponse()
+StackTrace :    at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 397
+   at HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 304
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 115
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\denlegiare\denledgiare\VSW.Lib\Global\Crawler.cs:line 446
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\denlegiare\denledgiare\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 25/12/2022 10:57:19
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\d76ce42e\909ffc94\App_Web_crawl.aspx.c327d63e.j9algykh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/12/2022 10:59:00
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : The request was aborted: Could not create SSL/TLS secure channel.
+Source : System
+TargetSite : System.Net.WebResponse GetResponse()
+StackTrace :    at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 397
+   at HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 304
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 115
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\denlegiare\denledgiare\VSW.Lib\Global\Crawler.cs:line 446
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\denlegiare\denledgiare\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 25/12/2022 10:59:00
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\d76ce42e\909ffc94\App_Web_crawl.aspx.c327d63e.j9algykh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/12/2022 11:01:24
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : The request was aborted: Could not create SSL/TLS secure channel.
+Source : System
+TargetSite : System.Net.WebResponse GetResponse()
+StackTrace :    at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 397
+   at HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 304
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 115
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\denlegiare\denledgiare\VSW.Lib\Global\Crawler.cs:line 446
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\denlegiare\denledgiare\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 25/12/2022 11:01:24
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\d76ce42e\909ffc94\App_Web_crawl.aspx.c327d63e.qfk26xie.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/12/2022 03:10:21
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : The request was aborted: Could not create SSL/TLS secure channel.
+Source : System
+TargetSite : System.Net.WebResponse GetResponse()
+StackTrace :    at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 397
+   at HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 304
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method) in C:\Source\htmlagilitypack_1.3.0\HtmlAgilityPack\HtmlWeb.cs:line 115
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\denlegiare\denledgiare\VSW.Lib\Global\Crawler.cs:line 446
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\denlegiare\denledgiare\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 25/12/2022 03:10:21
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\d76ce42e\909ffc94\App_Web_crawl.aspx.c327d63e.0hphpi9g.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

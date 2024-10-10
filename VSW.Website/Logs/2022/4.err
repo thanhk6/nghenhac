@@ -1,0 +1,243 @@
+Time : 17/04/2022 11:32:12
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:28
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:28
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:31
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:31
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:31
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:31
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:32
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 316
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 205
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 17/04/2022 11:32:32
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 137
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 394
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 211
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4bc89b02\1da8926c\App_Web_default.aspx.cdcab7d2.zbh6suwm.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

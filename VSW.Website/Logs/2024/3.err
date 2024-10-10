@@ -1,0 +1,50 @@
+Time : 01/03/2024 10:04:08
+IP : ::1
+URL : http://localhost:12348/ajax.html
+Message : The file '~/Views/MAjax/Index.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_4(System.String)
+StackTrace :    at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 193
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 239
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.55kmbdlk.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.55kmbdlk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 01/03/2024 10:04:37
+IP : ::1
+URL : http://localhost:12348/ajax/UpdateCar.html
+Message : The file '~/Views/CStatic/dynamicremarketing.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 323
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 01/03/2024 10:04:37
+IP : ::1
+URL : http://localhost:12348/ajax/UpdateCar.html
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.55kmbdlk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

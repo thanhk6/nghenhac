@@ -1,0 +1,501 @@
+Time : 11/09/2022 01:07:40
+IP : ::1
+URL : http://localhost:12348/
+Message : CurrentSite = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 197
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:07:40
+IP : ::1
+URL : http://localhost:12348/favicon.html
+Message : CurrentSite = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 197
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:18:57
+IP : ::1
+URL : http://localhost:12348/favicon.html
+Message : CurrentSite = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 197
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:19:20
+IP : ::1
+URL : http://localhost:12348/
+Message : CurrentSite = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 197
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:19:20
+IP : ::1
+URL : http://localhost:12348/favicon.html
+Message : CurrentSite = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 197
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:19:33
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:19:34
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:27
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:28
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:43
+IP : ::1
+URL : http://localhost:12348/KhoiNguyen/SysPage/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModBrandEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModBrandService.GetByLang(Int32 langID) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\ModBrandModel.cs:line 193
+   at ASP.khoinguyen_views_syspage_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\SysPage\Add.ascx:line 32
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.khoinguyen_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 219
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 11/09/2022 01:36:43
+IP : ::1
+URL : http://localhost:12348/KhoiNguyen/SysPage/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.khoinguyen_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.45176fc5.rbnsfjge.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:43
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:48
+IP : ::1
+URL : http://localhost:12348/KhoiNguyen/SysPage/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModBrandEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModBrandService.GetByLang(Int32 langID) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\ModBrandModel.cs:line 193
+   at ASP.khoinguyen_views_syspage_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\SysPage\Add.ascx:line 32
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.khoinguyen_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 219
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 11/09/2022 01:36:48
+IP : ::1
+URL : http://localhost:12348/KhoiNguyen/SysPage/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.khoinguyen_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.45176fc5.rbnsfjge.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/09/2022 01:36:48
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : VSW.Core.Interface.IPageInterface VSW_Core_GetByID(Int32)
+StackTrace :    at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\web\denlegiare\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 327
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 204
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\denlegiare\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\723cfb1a\f7291724\App_Web_default.aspx.cdcab7d2.ssd1jvbb.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/09/2022 11:12:28
+IP : ::1
+URL : http://localhost:12348/shop.html
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ASP.views_cmenu_footer_new_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\denledgiare\VSW.Website\Views\CMenu\footer-new.ascx:line 50
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_productnew_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\denlegiare\denledgiare\VSW.Website\Views\Shared\Productnew.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\denlegiare\VSW.Corev2.0\MVC\ViewPageBase.cs:line 220
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/09/2022 11:12:28
+IP : ::1
+URL : http://localhost:12348/shop.html
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\d76ce42e\909ffc94\App_Web_default.aspx.cdcab7d2.hntxp1lc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/09/2022 11:21:23
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : d:\web\denlegiare\denledgiare\VSW.Website\tn\Tools\Crawl.aspx(36): error CS0234: The type or namespace name 'Crawler' does not exist in the namespace 'VSW.Lib.Global' (are you missing an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/09/2022 12:38:41
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 28/09/2022 12:38:41
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/09/2022 12:39:04
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 28/09/2022 12:39:04
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/09/2022 12:39:18
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 28/09/2022 12:39:18
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/09/2022 12:39:51
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 28/09/2022 12:39:51
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

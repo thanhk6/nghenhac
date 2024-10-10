@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /CP/
+Disallow: /Data/flash/
+Disallow: /Data/ResizeImage/
+Disallow: /Data/upload/_thumbs/
+Disallow: /Data/upload/flash/
+Disallow: /Logs/
+Disallow: /Tools/
+Disallow: *?atr=*
+Disallow: *?page=*
+Disallow: *?keyword=*
+Disallow: *?sort=*
+User-Agent: Googlebot
+Allow: .js
+Allow: .css
+Sitemap: https://homeled.vn/sitemap.xml

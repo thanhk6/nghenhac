@@ -1,0 +1,1862 @@
+Time : 02/10/2021 01:44:16
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Unable to cast object of type 'System.Text.RegularExpressions.Match' to type 'System.IConvertible'.
+Source : mscorlib
+TargetSite : Int32 ToInt32(System.Object)
+StackTrace :    at System.Convert.ToInt32(Object value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 586
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 02/10/2021 01:44:16
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.qumj47bj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 02/10/2021 01:50:01
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Unable to cast object of type 'System.Text.RegularExpressions.Match' to type 'System.IConvertible'.
+Source : mscorlib
+TargetSite : Int32 ToInt32(System.Object)
+StackTrace :    at System.Convert.ToInt32(Object value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 587
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 02/10/2021 01:50:01
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.kx27cg2o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 02/10/2021 01:50:26
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Unable to cast object of type 'System.Text.RegularExpressions.Match' to type 'System.IConvertible'.
+Source : mscorlib
+TargetSite : Int32 ToInt32(System.Object)
+StackTrace :    at System.Convert.ToInt32(Object value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 587
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 02/10/2021 01:50:26
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=6
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.kx27cg2o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 12:49:46
+IP : ::1
+URL : http://localhost:12347/
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\CNews\Home.ascx(9): error CS1513: } expected
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 403
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 315
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 285
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 289
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 289
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 521
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.dosod3qu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:22:14
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 581
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:22:14
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.mnxr95ds.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:24:53
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 581
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:24:53
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.mnxr95ds.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:24:54
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 581
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:24:54
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.mnxr95ds.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:25:42
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:25:42
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:25:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:25:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:25:53
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:25:53
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=new_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:25:56
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:25:56
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:25:57
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:25:57
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_desc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:27:45
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnRender(String html) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 640
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 259
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:27:45
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.1wupedbf.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 05/10/2021 10:34:52
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Core.MVC.ViewPage.OnPreRender(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 581
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 05/10/2021 10:34:52
+IP : ::1
+URL : http://localhost:12347/bon-cau-1-khoi.html?page=1&sort=price_asc
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.kd2cbefx.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 15/10/2021 02:23:07
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 227
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 192
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 197
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 223
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 188
+
+
+Time : 15/10/2021 02:23:07
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 15/10/2021 02:23:14
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 227
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 192
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 197
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 223
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 188
+
+
+Time : 15/10/2021 02:23:14
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 15/10/2021 02:23:15
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 227
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 192
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 197
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 223
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 188
+
+
+Time : 15/10/2021 02:23:15
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2020-08.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zb6itgv8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 15/10/2021 11:58:05
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-06.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 227
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 182
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 197
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 224
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 185
+
+
+Time : 15/10/2021 11:58:05
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-06.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.7wwbzybu.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.7wwbzybu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 16/10/2021 12:08:09
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-06.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 228
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 183
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 198
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 224
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 185
+
+
+Time : 16/10/2021 12:08:09
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-06.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.iwpbnqud.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.iwpbnqud.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 16/10/2021 01:17:29
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-09.xml
+Message : variable 'o' of type 'VSW.Lib.Models.ModProductEntity' referenced from scope '', but it is not defined
+Source : System.Core
+TargetSite : Void Reference(System.Linq.Expressions.ParameterExpression, System.Linq.Expressions.Compiler.VariableStorageKind)
+StackTrace :    at System.Linq.Expressions.Compiler.VariableBinder.Reference(ParameterExpression node, VariableStorageKind storage)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitParameter(ParameterExpression node)
+   at System.Linq.Expressions.ParameterExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMember(MemberExpression node)
+   at System.Linq.Expressions.MemberExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(ReadOnlyCollection`1 nodes)
+   at System.Linq.Expressions.Compiler.VariableBinder.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.Compiler.VariableBinder.Visit(Expression node)
+   at System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   at System.Linq.Expressions.Expression`1.Compile()
+   at VSW.Core.Models.DBToLinQ`1.Lambda(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 116
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 228
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 193
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 198
+   at VSW.Core.Models.DBToLinQ`1.CreateQuery(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBToLinQ.cs:line 74
+   at VSW.Core.Models.DBQuery`1.Where(Expression`1 exp) in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 224
+   at VSW.Lib.Controllers.MSitemapController.ActionProduct() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MSitemapController.cs:line 188
+
+
+Time : 16/10/2021 01:17:29
+IP : ::1
+URL : http://localhost:12347/sitemap-product-2021-09.xml
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.Global.Class.CallMethod(String methodName) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 56
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 114
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.5spqzxoa.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.5spqzxoa.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 16/10/2021 02:38:54
+IP : ::1
+URL : http://localhost:12347/http:/localhost:12347/gio-hang.html?returnpath=/bon-cau-2-khoi-toto-cs986gt9.html
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 16/10/2021 02:39:09
+IP : ::1
+URL : http://localhost:12347/http:/localhost:12347/gio-hang.html?returnpath=/bon-cau-2-khoi-toto-cs986gt9.html
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 16/10/2021 02:40:19
+IP : ::1
+URL : http://localhost:12347/http:/localhost:12347/gio-hang.html?returnpath=/bon-cau-2-khoi-toto-cs986gt9.html
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 16/10/2021 02:40:19
+IP : ::1
+URL : http://localhost:12347/http:/localhost:12347/gio-hang.html?returnpath=/bon-cau-2-khoi-toto-cs986gt9.html
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 16/10/2021 02:40:19
+IP : ::1
+URL : http://localhost:12347/http:/localhost:12347/gio-hang.html?returnpath=/bon-cau-2-khoi-toto-cs986gt9.html
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 19/10/2021 12:55:37
+IP : ::1
+URL : http://localhost:12347/
+Message : Object reference not set to an instance of an object.
+Source : App_Web_home.ascx.91956902.cnsrevve
+TargetSite : Void __Render__control1(System.Web.UI.HtmlTextWriter, System.Web.UI.Control)
+StackTrace :    at ASP.views_cnews_home_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\CNews\Home.ascx:line 5
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_default_new_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\Shared\Default-new.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 219
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 19/10/2021 12:55:37
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ue_lvc8b.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/10/2021 08:28:17
+IP : ::1
+URL : http://localhost:12347/nap-bon-cau-tu-rua-co-inax-cws32vn.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 23/10/2021 12:00:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:00:46
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Mod_Product] with (NOLOCK)  WHERE (([Activity]=1) AND ([ID]<>7019)) AND ([MenuID] IN (1383)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.MProductController.ActionDetail(String endCode) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MProductController.cs:line 88
+
+
+Time : 23/10/2021 12:00:46
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 37
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 481
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 234
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:19:28
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:19:30
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:19:30
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:19:31
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:19:31
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs986gt9.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS0839: Argument missing
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.es03qjk8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 23/10/2021 12:45:43
+IP : ::1
+URL : http://localhost:12347/bon-cau-2-khoi-toto-cs735dt3.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(48): error CS1501: No overload for method 'GetMapPageproduct' takes 4 arguments
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 238
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.r2sgg_3o.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.r2sgg_3o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:00:44
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 206
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:02:39
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 206
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:02:59
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 206
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:02:59
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 212
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:07:26
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 206
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:07:57
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 212
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 24/10/2021 06:07:57
+IP : ::1
+URL : http://localhost:12347/
+Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 21
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 27
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 206
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.q5j9ygf3.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/10/2021 01:48:12
+IP : ::1
+URL : http://localhost:12347/Data/upload/images/voi-lavabo-D&K.jpg
+Message : A potentially dangerous Request.Path value was detected from the client (&).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+
+Time : 25/10/2021 03:10:15
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-rua-dien-tu-caesar-cd1363-taf200h.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MProduct\Detail.ascx(50): error CS1501: No overload for method 'GetMapPageproductBrand' takes 4 arguments
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 244
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zmudwrbo.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zmudwrbo.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/10/2021 02:33:25
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Sys_Page] with (NOLOCK)  WHERE ([Activity]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 28
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Models.SysPageService.GetAll_Cache() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 322
+   at VSW.Lib.Models.SysPageService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 333
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 209
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zyknrna2.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zyknrna2.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/10/2021 02:33:40
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2; handshake=14999; 
+SQLText : SELECT TOP 1 * FROM [Mod_CleanURL] with (NOLOCK)  WHERE (([Code]=@p1000) AND ([LangID]=1))
+SQLParameters : @p1000=favicon, 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 28
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.ModCleanURLService.GetByCode(String code, Int32 langId) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\ModCleanURLModel.cs:line 53
+   at VSW.Lib.Models.SysPageService.VSW_Core_CurrentPage(ViewPage viewPage) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysPageModel.cs:line 401
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 215
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zyknrna2.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.zyknrna2.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 25/10/2021 02:41:26
+IP : ::1
+URL : http://localhost:12347/thiet-bi-ve-sinh-caesar-co-tot-khong.html
+Message : d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Views\MNews\Detail.ascx(19): error CS1501: No overload for method 'GetMapPageproduct' takes 3 arguments
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
+   at VSW.Core.MVC.ViewPageBase.thanhhung_4(String directory) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 194
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 244
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ahhpzm7p.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ahhpzm7p.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/10/2021 01:44:36
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-rua-dien-tu-caesar-cd1363-taf200h.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Mod_Product] with (NOLOCK)  WHERE (([Activity]=1) AND ([ID]<>8399)) AND ([MenuID] IN (1385)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.MProductController.ActionDetail(String endCode) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MProductController.cs:line 91
+
+
+Time : 26/10/2021 01:44:36
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-rua-dien-tu-caesar-cd1363-taf200h.html
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 37
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 487
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 240
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.tlngffka.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.tlngffka.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/10/2021 01:47:33
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-rua-dien-tu-caesar-cd1363-taf200h.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT * FROM [Mod_Product] with (NOLOCK)  WHERE (([Activity]=1) AND ([ID]<>8399)) AND ([MenuID] IN (1385)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.MProductController.ActionDetail(String endCode) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\MProductController.cs:line 91
+
+
+Time : 26/10/2021 01:47:33
+IP : ::1
+URL : http://localhost:12347/bon-cau-thong-minh-nap-rua-dien-tu-caesar-cd1363-taf200h.html
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\khoinguyen\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageRender.cs:line 37
+   at VSW.Core.MVC.ViewPageBase.thanhhung_3(Class class, String action) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 167
+   at VSW.Core.MVC.ViewPage.thanhhung_6() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 487
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 240
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.v9scae47.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.v9scae47.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:40:43
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 10 * FROM [Mod_Product] with (NOLOCK)  ORDER BY [Order] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at ASP.khoinguyen_views_home_index_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Home\Index.ascx:line 14
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.khoinguyen_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 219
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/10/2021 06:40:43
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.khoinguyen_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.45176fc5.anw_ll15.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:41:19
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 1 * FROM [Sys_Site] with (NOLOCK)  WHERE ([Default]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Core.Models.DBQuery`1.ToSingle_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 523
+   at VSW.Lib.Models.SysSiteService.VSW_Core_GetDefault() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysSiteModel.cs:line 76
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 192
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ns8aqlbr.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ns8aqlbr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:41:39
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 1 * FROM [CP_User] with (NOLOCK)  WHERE (([ID]=45) AND ([Activity]=1))
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Lib.Models.CPUserService.GetLogin(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\CPUserModel.cs:line 150
+   at VSW.Lib.Global.CPLogin.get_CurrentUser() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Global\CPLogin.cs:line 47
+   at VSW.Lib.MVC.CPViewPage.OnPreInit(EventArgs e) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\MVC\CPViewPage.cs:line 85
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/10/2021 06:41:39
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.khoinguyen_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.45176fc5.anw_ll15.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:42:19
+IP : ::1
+URL : http://localhost:12347/favicon.html
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 1 * FROM [Sys_Lang] with (NOLOCK)  WHERE ([ID]=1)
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToSingle() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 496
+   at VSW.Core.Models.DBQuery`1.ToSingle_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 523
+   at VSW.Lib.Models.SysLangService.VSW_Core_GetByID(Int32 id) in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Models\SysLangModel.cs:line 47
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 202
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ns8aqlbr.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ns8aqlbr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:47:14
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT COUNT(*)  FROM [Mod_Product] with (NOLOCK) 
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : VSW.Core.Global.Object ExecuteScalar(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteScalar(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 66
+   at VSW.Core.Models.ServiceBase`1.ExecuteScalar(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 171
+   at VSW.Core.Models.DBQuery`1.ToValue() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 554
+   at VSW.Core.Models.DBQuery`1.ToValue_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 576
+   at ASP.khoinguyen_views_home_index_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Home\Index.ascx:line 18
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.khoinguyen_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\khoinguyen\khoinguyen-lamlai\VSW.Website\KhoiNguyen\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPageBase.cs:line 219
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/10/2021 06:47:14
+IP : ::1
+URL : http://localhost:12347/KhoiNguyen/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.khoinguyen_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.45176fc5.anw_ll15.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/10/2021 06:49:05
+IP : ::1
+URL : http://localhost:12347/
+Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+SQLText : SELECT TOP 20 * FROM [Mod_Product] with (NOLOCK)  WHERE ([Activity]=1) AND ([State]&8=8) AND ([MenuID] IN (48,251,320,336,337,338,339,321,341,342,343,344,322,331,248,1375,1376,287,1378,1379,304,1358,1359,1360,305,1362,1363,306,1381,1382,1383,1385,1387,1475,1392,1393,1395,1396,1398,1399,1400,1402,1403,1404,1406,1407,1408,1409,1410,1411,1414,1415,1416,1419,1420,1421,1422,1423,1425,1426,1427,1466,1428,1429,1430,1431,1432,1433,1434,1435,1474,1436,1437,1438,1439,1440,1441,1442,1443,1450,1461,1462,1463,1464,1465,1451,1476,1452,1467,1468,1453,1469,1470,1454,1455,1457,1471,1472,1458,1460,1473,332,218,1349,1350,1351,220,221,1352,1353,1519,237,1344,1345,1346,290,1347,1348,292,323,1342,1343,1380,324)) ORDER BY [Order] DESC,[ID] DESC
+SQLParameters : 
+Source : VSW.Corev2.0
+TargetSite : System.Data.DataSet ExecuteDataSet(System.String, System.String, System.Object[])
+StackTrace :    at VSW.Core.Data.SQLCmd.ExecuteDataSet(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 20
+   at VSW.Core.Data.SQLCmd.ExecuteDataTable(String connectionString, String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Data\SQLCmd.cs:line 26
+   at VSW.Core.Models.ServiceBase`1.ExecuteDataTable(String command, Object[] Params) in D:\khoinguyen\VSW.Corev2.0\Models\ServiceBase.cs:line 132
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 402
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\khoinguyen\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.Controllers.CProductController.OnLoad() in D:\khoinguyen\khoinguyen-lamlai\VSW.Lib\Controllers\CProductController.cs:line 21
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 368
+   at VSW.Core.MVC.ViewPage.thanhhung_12(Control control, String custom) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 321
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 291
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 295
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\khoinguyen\VSW.Corev2.0\MVC\ViewPage.cs:line 528
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/10/2021 06:49:05
+IP : ::1
+URL : http://localhost:12347/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\4a2f19a7\1da8926c\App_Web_default.aspx.cdcab7d2.ns8aqlbr.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
