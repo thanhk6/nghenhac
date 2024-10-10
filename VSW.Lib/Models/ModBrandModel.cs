@@ -98,7 +98,7 @@ namespace VSW.Lib.Models
         {
             if (_oGetProduct == null && MenuID > 0)
                 _oGetProduct = ModProductService.Instance.CreateQuery()
-                                                .Where(o => o.BrandID == ID)
+                                                
                                                 .OrderByDesc(o => new { o.Order, o.Activity })
                                                 
                                                 .ToList_Cache();

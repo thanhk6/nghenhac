@@ -13,17 +13,14 @@ namespace VSW.Lib.Controllers
             string keyword = !string.IsNullOrEmpty(model.keyword) ? Data.GetCode(model.keyword) : string.Empty;
             //string keyword = model.keyword;
             var dbQuery = ModProductService.Instance.CreateQuery()
-                  .Select(o => new { o.MenuID, o.Name, o.File, o.Code, o.Order, o.Price, o.Price2 })
+                  .Select(o => new { o.MenuID, o.Name, o.File, o.Code, o.Order })
                                     .Where(o => o.Activity == true)
                                     .Where(!string.IsNullOrEmpty(keyword), o => (o.Code.Contains(keyword)|| o.Name.Contains(keyword)||o.KeyWordSearch.Contains(keyword)))
                                     .OrderByDesc(o => new { o.ID })
                                     .Take(PageSize)
                                     .Skip(PageSize * model.page);
 
-            if (model.min > 0)
-                dbQuery.Where(o => o.Price >= model.min);
-            if (model.max > 0)
-                dbQuery.Where(o => o.Price < model.max);
+           
             ViewBag.Data = dbQuery.ToList();
             model.TotalRecord = dbQuery.TotalRecord;
             model.PageSize = PageSize;

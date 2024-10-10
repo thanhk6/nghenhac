@@ -32,52 +32,12 @@ namespace VSW.Lib.Controllers
             string keyword = !string.IsNullOrEmpty(model.keyword) ? Data.GetCode(model.keyword) : string.Empty;
 
             var dbQuery = ModProductService.Instance.CreateQuery()
-                .Select(o => new { o.ID, o.MenuID, o.Name, o.File, o.Price, o.Price2, o.View, o.Code, o.Order, o.Activity, o.State, o.BrandID })
+                .Select(o => new { o.ID, o.MenuID, o.Name, o.File, o.View, o.Code, o.Order, o.Activity, o.State })
                                     .Where(o => o.Activity == true)
                                     .Where(State > 0, o => o.State == State)
                                     .Where(!string.IsNullOrEmpty(keyword), o => (o.Model.Contains(keyword) || o.Code.Contains(keyword)))
-                                    .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))
-                                    .Where(BrandID > 0, o => o.BrandID == BrandID);
-                                    
-            //.OrderByDesc(o => new { o.Order, o.ID });
-            string sort = Core.Web.HttpQueryString.GetValue("sort").ToString();
+                                    .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID));
 
-            string atr = Core.Web.HttpQueryString.GetValue("atr").ToString().Trim();
-
-            if (sort == "new_asc") dbQuery.OrderByDesc(o => o.Updated);
-            else if (sort == "price_asc") dbQuery.OrderByAsc(o => o.Price);
-            else if (sort == "price_desc") dbQuery.OrderByDesc(o => o.Price);
-            else if (sort == "view_desc") dbQuery.OrderByDesc(o => o.View);
-            else dbQuery.OrderByDesc(o => new { o.Order });
-
-
-            int[] arrID = Core.Global.Array.ToInts(atr.Split('-'));
-
-            for (int i = 0; i < arrID.Length; i++)
-            {
-                var pid = arrID[i];
-                if (pid < 1) continue;
-                dbQuery.WhereIn(o => o.ID, ModPropertyService.Instance.CreateQuery().Select(o => o.ProductID).Distinct()
-
-
-                .WhereIn(o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))
-                .Where(o => o.PropertyValueID == pid));
-            }
-
-            //if (model.min > 0)
-            //    dbQuery.Where(o => o.Price >= model.min);
-            //if (model.max > 0)
-            //    dbQuery.Where(o => o.Price < model.max);
-            //
-            // 
-            var  CountProduct= ModProductService.Instance.CreateQuery()
-                .Select(o => o.ID)
-                                    .Where(o => o.Activity == true)
-                                    .Where(State > 0, o => o.State == State)
-                                    .Where(!string.IsNullOrEmpty(keyword), o => (o.Model.Contains(keyword) || o.Code.Contains(keyword)))
-                                    .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))
-                                    .Where(BrandID > 0, o => o.BrandID == BrandID).Count().ToValue_Cache().ToInt(0);
-            ViewBag.coutProduct = CountProduct;
             ViewBag.Data = dbQuery.Skip(PageSize * model.page)
                                     .Take(PageSize).ToList_Cache();
             model.TotalRecord = dbQuery.TotalRecord;
@@ -112,7 +72,7 @@ namespace VSW.Lib.Controllers
                 //up view
                 item.UpView();
                 ViewBag.Other = ModProductService.Instance.CreateQuery()
-                    .Select(o => new {o.Name,o.MenuID,o.Code,o.File,o.Price,o.Price2,o.Order,o.Activity})
+                    .Select(o => new {o.Name,o.MenuID,o.Code,o.File,o.Order,o.Activity})
                                             .Where(o => o.Activity == true && o.ID != item.ID)
                                             .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))
                                             .OrderByDesc(o => new { o.Order, o.ID })
@@ -131,8 +91,8 @@ namespace VSW.Lib.Controllers
 
                 //SEO
                 ViewPage.CurrentPage.PageKeywords = item.PageKeywords;
-                ViewPage.CurrentPage.PageTitle = string.IsNullOrEmpty(item.PageTitle) ? item.Name : item.PageTitle;
-                ViewPage.CurrentPage.PageDescription = string.IsNullOrEmpty(item.PageDescription) ? item.Summary : item.PageDescription;
+              
+               
                 ViewPage.CurrentPage.PageURL = ViewPage.GetURL(item.MenuID, item.Code);
                 ViewPage.CurrentPage.PageFile = Core.Web.HttpRequest.Domain + Utils.GetCropFile(item.File, 200, 200);          
             }

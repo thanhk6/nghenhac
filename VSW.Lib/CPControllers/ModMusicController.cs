@@ -34,7 +34,7 @@ namespace VSW.Lib.CPControllers
                                     .Where(!string.IsNullOrEmpty(model.SearchText), o => (o.Name.Contains(model.SearchText) || o.Code.Contains(model.SearchText)))
                                     .Where(model.State > 0, o => (o.State & model.State) == model.State)
                                     .WhereIn(o => o.MenuID, WebMenuService.Instance.GetChildIDForCP("Product", model.MenuID, model.LangID))
-                                    .Where(model.BrandID > 0, o => o.BrandID == model.BrandID)
+                                   
                                   .Take(model.PageSize)
                                     .OrderBy(orderBy)
             .Skip(model.PageIndex * model.PageSize);
@@ -61,7 +61,7 @@ namespace VSW.Lib.CPControllers
                 _item = new ModProductEntity
                 {
                     MenuID = model.MenuID,
-                    BrandID = model.BrandID,
+                  
                     Published = DateTime.Now,
                     Updated = DateTime.Now,
                     Order = GetMaxOrder(),
@@ -212,7 +212,7 @@ namespace VSW.Lib.CPControllers
 
             for (int i = 0; listItem != null && i < listItem.Count; i++)
             {
-                if (listItem[i].BrandID == 1226 && listItem[i].MenuID==1277)
+                if ( listItem[i].MenuID==1277)
                 {
 
                     CPViewPage.Message.MessageType = Message.MessageTypeEnum.Error;

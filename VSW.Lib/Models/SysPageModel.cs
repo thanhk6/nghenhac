@@ -146,7 +146,7 @@ namespace VSW.Lib.Models
                                         .Where(o => o.Activity == true)
                                       // .Where(BrandID>0, o=>o.BrandID==BrandID)
                                      // .Where( o => o.MenuID == MenuID)                                 
-                                      .WhereIn(o => o.BrandID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", BrandID, LangID))
+                                      
                                        .WhereIn(o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, LangID))
                                         .Count()
                                         .ToValue_Cache()

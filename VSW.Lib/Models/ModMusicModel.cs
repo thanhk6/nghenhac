@@ -14,12 +14,8 @@ namespace VSW.Lib.Models
 
         [DataInfo]
         public int MenuID { get; set; }
-
         [DataInfo]
-        public int BrandID { get; set; }
-
-        [DataInfo]
-        public int StyleID { get; set; }
+        public string Code { get; set; }
 
         [DataInfo]
         public int State { get; set; }
@@ -27,8 +23,7 @@ namespace VSW.Lib.Models
         [DataInfo]
         public override string Name { get; set; }
 
-        [DataInfo]
-        public string Code { get; set; }
+       
 
         [DataInfo]
         public string File { get; set; }
@@ -39,17 +34,10 @@ namespace VSW.Lib.Models
         [DataInfo]
         public string Model { get; set; }
 
-        [DataInfo]
-        public string Color { get; set; }
 
         [DataInfo]
         public string Size { get; set; }
 
-        [DataInfo]
-        public long Price { get; set; }
-
-        [DataInfo]
-        public long Price2 { get; set; }
 
         [DataInfo]
         public long View { get; set; } = 1;
@@ -63,11 +51,7 @@ namespace VSW.Lib.Models
         [DataInfo]
         public string Custom { get; set; }
 
-        [DataInfo]
-        public string PageTitle { get; set; }
-
-        [DataInfo]
-        public string PageDescription { get; set; }
+       
 
         [DataInfo]
         public string PageKeywords { get; set; }
@@ -87,31 +71,7 @@ namespace VSW.Lib.Models
         public string KeyWordSearch { get; set; }
         [DataInfo]
         public string Alt { get; set; }
-        public long PriceSale
-        {
-            get
-            {
-                if (Price2 == 0)
-                {
-                    return Price;
-                }
-                var brand = GetBrand();
-
-                if (brand == null)
-                {
-                    return Price;
-                };
-                return Price;
-                //else
-                //{
-                //    if (brand.Discount <= 0)
-                //    {
-                //        return Price;
-                //    }
-                //    return Price2 - (Price2 * brand.Discount / 100);
-                //}
-            }
-        }
+      
         #endregion Autogen by VSW
         public ModProductEntity()
         {
@@ -140,29 +100,7 @@ namespace VSW.Lib.Models
                 return _oSummary;
             }
         }
-        private long _oSellOff;
-        public long SellOff
-        {
-            get
-            {
-                if (_oSellOff == 0 && Price2 > Price)
-                    _oSellOff = Price2 - Price;
-
-                return _oSellOff;
-            }
-        }
-        private long _oSellOffPercent;
-        public long SellOffPercent
-        {
-            get
-            {
-                if (_oSellOffPercent == 0 && Price2 > 0 && SellOff > 0)
-
-                    _oSellOffPercent = SellOff*100 / Price2;
-
-                return _oSellOffPercent;
-            }
-        }      
+      
         private WebMenuEntity _oMenu;
         public WebMenuEntity GetMenu()
         {
@@ -180,23 +118,8 @@ namespace VSW.Lib.Models
         //    return _oBrand ?? (_oBrand = new ModBrandEntity());
         //}
         private WebMenuEntity _oBrand;
-        public WebMenuEntity GetBrand()
-        {
-            if (_oBrand == null && BrandID > 0)
-                _oBrand = WebMenuService.Instance.GetByID_Cache(BrandID);
-
-            return _oBrand ?? (_oBrand = new WebMenuEntity());
-        }
-
-        private WebMenuEntity _oStyle;
-        public WebMenuEntity GetStyle()
-        {
-            if (_oStyle == null && StyleID > 0)
-
-                _oStyle = WebMenuService.Instance.GetByID_Cache(StyleID);
-
-            return _oStyle ?? (_oStyle = new WebMenuEntity());
-        }
+       
+       
 
         private List<ModProductFileEntity> _oGetFile;
         public List<ModProductFileEntity> GetFile()

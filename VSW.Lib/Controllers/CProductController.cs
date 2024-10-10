@@ -19,7 +19,7 @@ namespace VSW.Lib.Controllers
         public override void OnLoad()
         {
             ViewBag.Data = ModProductService.Instance.CreateQuery()
-               .Select(o => new { o.ID, o.MenuID, o.Name, o.File, o.Price, o.Price2, o.View, o.Code, o.Order,o.Activity,o.State})
+               .Select(o => new { o.ID, o.MenuID, o.Name, o.File,  o.View, o.Code, o.Order,o.Activity,o.State})
                                     .Where(o => o.Activity == true)
                                     .Where(State > 0, o => (o.State & State) == State)
                                     .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))
@@ -29,7 +29,7 @@ namespace VSW.Lib.Controllers
 
 
             ViewBag.FlashSale= ModProductService.Instance.CreateQuery()
-                .Select(o=>new {o.ID,o.MenuID,o.Activity,o.State,o.Price,o.Price2,o.Code,o.Order,o.File})
+                .Select(o=>new {o.ID,o.MenuID,o.Activity,o.State,o.Code,o.Order,o.File})
                                     .Where(o => o.Activity == true)
                                     .Where(State > 0, o => (o.State & State)== 6)                                   
                                     .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, ViewPage.CurrentLang.ID))

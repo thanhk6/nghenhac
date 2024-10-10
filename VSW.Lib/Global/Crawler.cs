@@ -369,11 +369,11 @@ namespace VSW.Lib.Global
                             {
                                 ID = 0,
                                 MenuID = menuID,
-                                BrandID = brandID,
+                            
                                 Name = name,
                                 Code = code,
                                 Model = model,
-                                Price = Core.Global.Convert.ToLong(price),
+                              
                                 File = file,
                                 FileDetail = fileDetailX,
                                 Content = content,
@@ -573,8 +573,7 @@ namespace VSW.Lib.Global
                         Name = name,
                         Code = code,
                         //Model = model,
-                        Price = Core.Global.Convert.ToLong(price),
-                        Price2 = Core.Global.Convert.ToLong(price2),
+                       
                         File = file,
                         FileDetail = fileDetailX,
                         Content = content,

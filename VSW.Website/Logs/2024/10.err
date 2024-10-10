@@ -112,3 +112,41 @@ StackTrace :    at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in 
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 
+Time : 11/10/2024 03:13:45
+IP : ::1
+URL : http://localhost:12348/
+Message : The file '~/Views/MProduct/Index.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_4(System.String)
+StackTrace :    at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\web api\duytin4\doan\VSW.Corev2.0\MVC\ViewPageBase.cs:line 195
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\web api\duytin4\doan\VSW.Corev2.0\MVC\ViewPage.cs:line 239
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\web api\duytin4\doan\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\7bcd1c3c\44d39451\App_Web_default.aspx.cdcab7d2.zxhedhzj.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\7bcd1c3c\44d39451\App_Web_default.aspx.cdcab7d2.zxhedhzj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/10/2024 03:13:46
+IP : ::1
+URL : http://localhost:12348/
+Message : The file '~/Views/MProduct/Index.ascx' not found
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_4(System.String)
+StackTrace :    at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\web api\duytin4\doan\VSW.Corev2.0\MVC\ViewPageBase.cs:line 195
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\web api\duytin4\doan\VSW.Corev2.0\MVC\ViewPage.cs:line 239
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\web api\duytin4\doan\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\7bcd1c3c\44d39451\App_Web_default.aspx.cdcab7d2.zxhedhzj.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\7bcd1c3c\44d39451\App_Web_default.aspx.cdcab7d2.zxhedhzj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
