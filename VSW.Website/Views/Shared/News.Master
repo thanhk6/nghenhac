@@ -75,7 +75,6 @@
                             </div>
                         </div>
                     </div>
-
                     <VSW:StaticControl Code="CMenu" VSWID="vswtopnew" runat="server" />
                 </div>
             </header>

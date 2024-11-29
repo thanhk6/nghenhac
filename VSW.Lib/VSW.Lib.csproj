@@ -66,35 +66,32 @@
     <Compile Include="Controllers\CCommentController.cs" />
     <Compile Include="Controllers\CMenuController.cs" />
     <Compile Include="Controllers\CBrandController.cs" />
-    <Compile Include="Controllers\CNewsController.cs" />
     <Compile Include="Controllers\CPropertyController.cs" />
-    <Compile Include="Controllers\CProductController.cs" />
+    <Compile Include="Controllers\CMp3Controller.cs" />
     <Compile Include="Controllers\CStaticController.cs" />
     <Compile Include="Controllers\CTextController.cs" />
+    <Compile Include="Controllers\CVideoController.cs" />
     <Compile Include="Controllers\MAjaxController.cs" />
-    <Compile Include="Controllers\MCheckoutController.cs" />
     <Compile Include="Controllers\MContentController.cs" />
     <Compile Include="Controllers\MBrandController.cs" />
-    <Compile Include="Controllers\MNewsController.cs" />
+    <Compile Include="Controllers\MForgotController.cs" />
+    <Compile Include="Controllers\MLoginController.cs" />
+    <Compile Include="Controllers\MRegisterController.cs" />
     <Compile Include="Controllers\MSearchController.cs" />
-    <Compile Include="Controllers\MProductController.cs" />
-    <Compile Include="Controllers\MSitemapController.cs" />
-    <Compile Include="Controllers\MViewCartController.cs" />
+    <Compile Include="Controllers\MMP3troller.cs" />
+    <Compile Include="Controllers\MVideoController.cs" />
     <Compile Include="CPControllers\AccessDeniedController.cs" />
     <Compile Include="CPControllers\AjaxController.cs" />
-    <Compile Include="CPControllers\FormNewsController.cs" />
     <Compile Include="CPControllers\ModAutoLinksController.cs" />
-    <Compile Include="CPControllers\ModBrandController.cs" />
+    <Compile Include="CPControllers\ModAuthorController.cs" />
     <Compile Include="CPControllers\ModCommentController.cs" />
-    <Compile Include="CPControllers\ModFeedbackController.cs" />
-    <Compile Include="CPControllers\ModOrderController.cs" />
-    <Compile Include="CPControllers\ModNewsController.cs" />
-    <Compile Include="CPControllers\ModMusicController.cs" />
+    <Compile Include="CPControllers\ModMp3Controller.cs" />
     <Compile Include="CPControllers\FormTextController.cs" />
     <Compile Include="CPControllers\HomeController.cs" />
     <Compile Include="CPControllers\LoginController.cs" />
     <Compile Include="CPControllers\ModAdvController.cs" />
     <Compile Include="CPControllers\ModFileController.cs" />
+    <Compile Include="CPControllers\ModVideoController.cs" />
     <Compile Include="CPControllers\ModWebUserController.cs" />
     <Compile Include="CPControllers\SysMenuController.cs" />
     <Compile Include="CPControllers\SysPageController.cs" />
@@ -115,7 +112,6 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Global\ChangeFrequency1.cs" />
-    <Compile Include="Global\Crawler.cs" />
     <Compile Include="Global\Random.cs" />
     <Compile Include="Global\Json.cs" />
     <Compile Include="Global\Application.cs" />
@@ -158,19 +154,15 @@
     <Compile Include="Models\ModAutoLinksModel.cs" />
     <Compile Include="Models\ModCleanURLModel.cs" />
     <Compile Include="Models\ModCommentModel.cs" />
-    <Compile Include="Models\ModFeedbackModel.cs" />
-    <Compile Include="Models\ModBrandModel.cs" />
+    <Compile Include="Models\ModAuthorModel.cs" />
     <Compile Include="Models\ModCollectionModel.cs" />
-    <Compile Include="Models\ModOrderDetailModel.cs" />
-    <Compile Include="Models\ModOrderModel.cs" />
+    <Compile Include="Models\ModMp3Model.cs" />
     <Compile Include="Models\ModPropertyModel.cs" />
-    <Compile Include="Models\ModNewsModel.cs" />
     <Compile Include="Models\ModOnlineModel.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Models\ModMusicFileModel.cs" />
-    <Compile Include="Models\ModMusicModel.cs" />
-    <Compile Include="Models\ModSubscribeModel.cs" />
+    <Compile Include="Models\ModProductFileModel.cs" />
+    <Compile Include="Models\ModVideoModel.cs" />
     <Compile Include="Models\ModWebUserModel.cs" />
     <Compile Include="Models\SysLangModel.cs" />
     <Compile Include="Models\SysModuleModel.cs" />
@@ -243,7 +235,7 @@
     <Folder Include="Global\GHTK\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VSW.Corev2.0\VSW.Corev2.0.csproj">
+    <ProjectReference Include="..\..\VSW.Corev2.0\VSW.Corev2.0.csproj">
       <Project>{3d64e05c-60d8-4038-896d-3faa8d5b24d5}</Project>
       <Name>VSW.Corev2.0</Name>
     </ProjectReference>

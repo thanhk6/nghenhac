@@ -128,7 +128,7 @@ namespace VSW.Lib.Models
         {
             get
             {
-                return ModProductService.Instance.CreateQuery()
+                return ModMp3Service.Instance.CreateQuery()
                                         .Select(o => o.ID)
                                         .Where(o => o.Activity == true)                                      
                                         .WhereIn(o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, LangID))
@@ -141,12 +141,12 @@ namespace VSW.Lib.Models
         {
             get
             {
-                return ModProductService.Instance.CreateQuery()
+                return ModMp3Service.Instance.CreateQuery()
                                         .Select(o => o.ID)
                                         .Where(o => o.Activity == true)
                                       // .Where(BrandID>0, o=>o.BrandID==BrandID)
                                      // .Where( o => o.MenuID == MenuID)                                 
-                                      
+                                     
                                        .WhereIn(o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Product", MenuID, LangID))
                                         .Count()
                                         .ToValue_Cache()
@@ -170,14 +170,14 @@ namespace VSW.Lib.Models
 
             return _oMenu ?? (_oMenu = new WebMenuEntity());
         }
-        private ModBrandEntity _oBrand;
+        private ModAuthorEntity _oBrand;
 
-        public ModBrandEntity GetBrand()
+        public ModAuthorEntity GetBrand()
         {
             if (_oBrand == null && BrandID > 0)
-                _oBrand = ModBrandService.Instance.GetByID(BrandID);
+                _oBrand = ModAuthorService.Instance.GetByID(BrandID);
 
-            return _oBrand ?? (_oBrand = new ModBrandEntity());
+            return _oBrand ?? (_oBrand = new ModAuthorEntity());
         }
     }
     public class SysPageService : ServiceBase<SysPageEntity>, IPageServiceInterface

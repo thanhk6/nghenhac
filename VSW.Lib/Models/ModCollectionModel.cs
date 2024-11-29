@@ -78,14 +78,15 @@ namespace VSW.Lib.Models
             return _oMenu ?? (_oMenu = new WebMenuEntity());
         }
 
-        private ModBrandEntity _oBrand;
-        public ModBrandEntity GetBrand()
-        {
-            if (_oBrand == null && BrandID > 0)
-                _oBrand = ModBrandService.Instance.GetByID(BrandID);
+        //private ModAuthorService _oBrand;
+        //public ModAuthorService GetBrand()
+        //{
+        //    if (_oBrand == null && BrandID > 0)
+        //        _oBrand = ModAuthorService.Instance.GetByID(BrandID);
 
-            return _oBrand ?? (_oBrand = new ModBrandEntity());
-        }
+        //    return _oBrand ?? (_oBrand = new ModAuthorService());
+        //}
+
     }
 
     public class ModCollectionService : ServiceBase<ModCollectionEntity>

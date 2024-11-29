@@ -12,8 +12,8 @@ namespace VSW.Lib.Controllers
         {
             string keyword = !string.IsNullOrEmpty(model.keyword) ? Data.GetCode(model.keyword) : string.Empty;
             //string keyword = model.keyword;
-            var dbQuery = ModProductService.Instance.CreateQuery()
-                  .Select(o => new { o.MenuID, o.Name, o.File, o.Code, o.Order })
+            var dbQuery = ModMp3Service.Instance.CreateQuery()
+                  .Select(o => new { o.MenuID, o.Name, o.File, o.Code, o.Order})
                                     .Where(o => o.Activity == true)
                                     .Where(!string.IsNullOrEmpty(keyword), o => (o.Code.Contains(keyword)|| o.Name.Contains(keyword)||o.KeyWordSearch.Contains(keyword)))
                                     .OrderByDesc(o => new { o.ID })

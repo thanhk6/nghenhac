@@ -154,7 +154,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node2 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -224,7 +224,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node2 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -263,7 +263,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node2 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -294,7 +294,17 @@ namespace VSW.Lib.CPControllers
         }
         #endregion
 
+        #region Uniform
+     
+
       
+
+     
+
+
+
+
+        #endregion
 
         #region File
 
@@ -366,7 +376,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node2 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -433,7 +443,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node2 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -472,7 +482,7 @@ namespace VSW.Lib.CPControllers
         {
             var json = new Json();
 
-            var item = ModProductService.Instance.GetByID(model.ProductID);
+            var item = ModMp3Service.Instance.GetByID(model.ProductID);
             if (item == null)
             {
                 json.Instance.Node1 += "Sản phẩm không còn tồn tại. F5 và thử lại.";
@@ -647,14 +657,14 @@ namespace VSW.Lib.CPControllers
                 json.Create();
             }
 
-            ModProductEntity product = null;
+            ModMp3Entity product = null;
             if (model.ProductID > 0)
-                product = ModProductService.Instance.GetByID(model.ProductID);
+                product = ModMp3Service.Instance.GetByID(model.ProductID);
 
             if (product == null)
             {
                 //luu san pham
-                product = new ModProductEntity()
+                product = new ModMp3Entity()
                 {
                     ID = 0,
                     MenuID = model.MenuID,
@@ -666,7 +676,7 @@ namespace VSW.Lib.CPControllers
                     Activity = false
                 };
 
-                ModProductService.Instance.Save(product);
+                ModMp3Service.Instance.Save(product);
 
                 json.Instance.Node3 += product.ID;
             }
@@ -713,7 +723,7 @@ namespace VSW.Lib.CPControllers
 
         private static int GetMaxProductOrder()
         {
-            return ModProductService.Instance.CreateQuery()
+            return ModMp3Service.Instance.CreateQuery()
                     .Max(o => o.Order)
                     .ToValue().ToInt(0) + 1;
         }

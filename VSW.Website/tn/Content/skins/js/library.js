@@ -373,7 +373,43 @@ function ShowLandingForm(cID, sValue) {
     return false;
 }
 var name_control = '';
+
+function ShowFilemP3Form(cID, sValue) {
+
+    name_control = cID;
+
+    var finder = new CKFinder();
+    finder.basePath = '../';
+    finder.selectActionFunction = refreshmp3Page;
+    finder.popup();
+
+    return false;
+
+}
+
+function refreshmp3Page(arg) {
+    debugger;
+    var obj = document.getElementById(name_control);
+    if (name_control.indexOf('FileMp3') > -1 || name_control.indexOf('Img') > -1 || name_control.indexOf('Logo') > -1)
+        obj.value = '~' + arg;
+    else
+        obj.value = arg;
+
+    //arg = '~' + arg;
+    $('#' + name_control).val(arg);
+
+    var info = $('#' + name_control).parent().parent();
+
+    if (info.length) {
+        info.find('img').attr('src', arg);
+    }
+}
+
+
+
+
 function refreshPage(arg) {
+    debugger;
     var obj = document.getElementById(name_control);
     if (name_control.indexOf('File') > -1 || name_control.indexOf('Img') > -1 || name_control.indexOf('Logo') > -1)
         obj.value = '~' + arg;
@@ -389,6 +425,10 @@ function refreshPage(arg) {
         info.find('img').attr('src', arg);
     }
 }
+
+
+
+
 
 function layout_change(pid, listParam, layout) {
     if (listParam === '') return;

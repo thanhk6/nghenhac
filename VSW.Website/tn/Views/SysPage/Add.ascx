@@ -29,7 +29,7 @@
 
     var parent = item.ID > 0 ? SysPageService.Instance.GetByID_Cache(item.ParentID) : null;
 
-    var listBrand = ModBrandService.Instance.GetByLang(model.LangID);
+  
 %>
 <form id="vswForm" name="vswForm" method="post">
     <input type="hidden" id="_vsw_action" name="_vsw_action" />
@@ -153,15 +153,7 @@
                                                 </div>--%>
 
 
-                                                <div class="form-group row">
-                                                    <label class="col-md-3 col-form-label text-right">Thương hiệu:</label>
-                                                    <div class="col-md-9">
-                                                        <select class="form-control" name="BrandID" id="BrandID">
-                                                            <option value="0">Root</option>
-                                                            <%= Utils.ShowDdlMenuByType2("Brand", model.LangID, item.BrandID)%>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                         
 
 
 

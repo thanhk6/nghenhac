@@ -92,12 +92,12 @@ namespace VSW.Lib.Global
                 ObjectStorage<List<CartItem>>.Remove(_cookieKey);
         }
 
-        public List<ModProductEntity> GetProduct()
+        public List<ModMp3Entity> GetProduct()
         {
-            var list = new List<ModProductEntity>();
+            var list = new List<ModMp3Entity>();
             for (int i = 0; i < _listItem.Count; i++)
             {
-                var product = ModProductService.Instance.GetByID(_listItem[i].ProductID);
+                var product = ModMp3Service.Instance.GetByID(_listItem[i].ProductID);
 
                 if (product == null) continue;
 

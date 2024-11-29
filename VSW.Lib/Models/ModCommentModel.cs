@@ -38,7 +38,7 @@ namespace VSW.Lib.Models
         [DataInfo]
         public string Email { get; set; }
         [DataInfo]
-        public int  ProductID { get; set; }
+        public int  Mp3ID { get; set; }
         [DataInfo]
         public int ParentID { get; set; }
         [DataInfo]
@@ -55,18 +55,7 @@ namespace VSW.Lib.Models
                 _oWebUser = ModWebUserService.Instance.GetByID(WebUserID);
 
             return _oWebUser ?? (_oWebUser = new ModWebUserEntity());
-        }
-        private ModProductEntity _oProduct;
-        public ModProductEntity GetProduct()
-        {
-
-            if(_oProduct==null&&ProductID>0)
-            {
-                _oProduct = ModProductService.Instance.GetByID(ProductID);
-            }
-            return _oProduct ?? (_oProduct = new ModProductEntity());
-        }
-
+        }     
         private ModCommentEntity _oParent;
 
         public ModCommentEntity GetParent()
@@ -76,7 +65,6 @@ namespace VSW.Lib.Models
 
             return _oParent ?? (_oParent = new ModCommentEntity());
         }
-
         public List<ModCommentEntity> GetComment()
         {
             return ModCommentService.Instance.CreateQuery()
@@ -111,10 +99,7 @@ namespace VSW.Lib.Models
 
         #endregion Autogen by VSW
 
-
-
     }
-
     public class ModCommentService : ServiceBase<ModCommentEntity>
     {
         #region Autogen by VSW

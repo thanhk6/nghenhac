@@ -350,5 +350,57 @@ function ShowImageForm(sValue) {
 }
 
 
+$('.product input').on('change', function () {
+    RepairedUploadAppraisal();
+})
+function RepairedUploadAppraisal() {
+    $('.loading').show();
 
+    var arrFile = $('#ArrFile').get(0).files;
+    var formData = new FormData();
+    for (var i = 0; i < arrFile.length; i++) {
+        formData.append(arrFile[i].name, arrFile[i]);
+    }
+    $.ajax({
+        url: '/' + window.CPPath + '/Ajax/RepairedUploadAppraisal.aspx?RepairedID=' + $('#RecordID').val(),
+        type: 'POST',
+        enctype: 'multipart/form-data',
+        processData: false,
+        contentType: false,
+        cache: false,
+        data: formData,
+        xhr: function () {
+            var xhr = $.ajaxSettings.xhr();
+            if (xhr.upload) {
+                xhr.upload.addEventListener('progress', function (event) {
+                    var percent = 0;
+                    var position = event.loaded || event.position;
+                    var total = event.total;
+                    if (event.lengthComputable) {
+                        percent = Math.ceil(position / total * 100);
+                    }
+                    //update progressbar
+                    //$('.progress-bar').css({ 'width': + percent + '%', 'display': 'block' });
+                    //$('.progress-label').css({ 'display': 'block' }).text(percent + '%');
+                }, true);
+            }
+            return xhr;
+        }
+
+    }).done(function (data) {
+        var node1 = data.Node1;
+        var node2 = data.Node2;
+
+        if (node2 != '') {
+            sw_alert('Thông báo !', node2);
+        }
+
+        $('#list-file').html(node1);
+
+        //$('.progress-bar').css({ 'display': 'none' });
+        //$('.progress-label').css({ 'display': 'none' });
+        location.reload();
+        $('.loading').hide();
+    });
+}
 

@@ -32,13 +32,13 @@ namespace VSW.Lib.Models
             return _oMenu ?? (_oMenu = new WebMenuEntity());
         }
 
-        private ModProductEntity _oProduct;
-        public ModProductEntity GetProduct()
+        private ModMp3Entity _oProduct;
+        public ModMp3Entity GetProduct()
         {
             if (_oProduct == null && ProductID > 0)
-                _oProduct = ModProductService.Instance.GetByID(ProductID);
+                _oProduct = ModMp3Service.Instance.GetByID(ProductID);
 
-            return _oProduct ?? (_oProduct = new ModProductEntity());
+            return _oProduct ?? (_oProduct = new ModMp3Entity());
         }
         private WebPropertyEntity _oProperty;
         public WebPropertyEntity GetProperty()

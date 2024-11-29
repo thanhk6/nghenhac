@@ -14,7 +14,7 @@ namespace VSW.Lib.Controllers
         public int PageID;
         public override void OnLoad()
         {
-            ViewBag.Data = ModBrandService.Instance.CreateQuery()
+            ViewBag.Data = ModAuthorService.Instance.CreateQuery()
                 .Select(o=> new { o.ID,o.MenuID,o.Code,o.Name,o.Order})
                                     .Where(o => o.Activity == true)
                                     .WhereIn(MenuID > 0, o => o.MenuID, WebMenuService.Instance.GetChildIDForWeb_Cache("Brand", MenuID, ViewPage.CurrentLang.ID))

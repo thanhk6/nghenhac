@@ -369,7 +369,7 @@ namespace VSW.Lib.Global
                             {
                                 ID = 0,
                                 MenuID = menuID,
-                            
+                                BrandID = brandID,
                                 Name = name,
                                 Code = code,
                                 Model = model,
@@ -573,7 +573,7 @@ namespace VSW.Lib.Global
                         Name = name,
                         Code = code,
                         //Model = model,
-                       
+                      
                         File = file,
                         FileDetail = fileDetailX,
                         Content = content,

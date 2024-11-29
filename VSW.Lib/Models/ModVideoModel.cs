@@ -6,7 +6,7 @@ namespace VSW.Lib.Models
     public class ModVideoEntity : EntityBase
     {
         #region Autogen by VSW
-
+        //  đang phát triển phần mv
         [DataInfo]
         public override int ID { get; set; }
 
@@ -16,8 +16,7 @@ namespace VSW.Lib.Models
         [DataInfo]
         public int MenuID { get; set; }
 
-        [DataInfo]
-        public int CityID { get; set; }
+       
 
         [DataInfo]
         public int State { get; set; }
@@ -137,7 +136,6 @@ namespace VSW.Lib.Models
                 return _youtubeID;
             }
         }
-
         private string _thumbnail;
         public string Thumbnail
         {

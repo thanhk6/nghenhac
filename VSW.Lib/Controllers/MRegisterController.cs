@@ -66,7 +66,7 @@ namespace VSW.Lib.Controllers
 
                 WebLogin.SetLogin(item.ID, true);
 
-                ViewPage.AlertThenRedirect("Bạn đã đăng ký thành công.", "/");
+               // ViewPage.AlertThenRedirect("Bạn đã đăng ký thành công.", "/");
             }
 
             ViewBag.Data = item;
