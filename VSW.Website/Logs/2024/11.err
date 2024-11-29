@@ -1,0 +1,2186 @@
+Time : 20/11/2024 05:41:37
+IP : ::1
+URL : http://localhost:12348/
+Message : CurrentModule = null
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_6()
+StackTrace :    at VSW.Core.MVC.ViewPage.nguyenthanh_6() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 476
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 237
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 20/11/2024 05:41:37
+IP : ::1
+URL : http://localhost:12348/
+Message : CurrentModule = null
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_6()
+StackTrace :    at VSW.Core.MVC.ViewPage.nguyenthanh_6() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 476
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 237
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 20/11/2024 06:07:09
+IP : ::1
+URL : http://localhost:12348/
+Message : CurrentModule = null
+Source : VSW.Corev2.0
+TargetSite : Void nguyenthanh_6()
+StackTrace :    at VSW.Core.MVC.ViewPage.nguyenthanh_6() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 476
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 237
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.nxcf2g_s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 20/11/2024 09:45:34
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Index.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Index.ascx(5): error CS0246: The type or namespace name 'ModProductEntity' could not be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.ndpopc7n.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 20/11/2024 09:58:12
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Index.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Index.ascx(4): error CS0246: The type or namespace name 'ModMp3Model' could not be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.esmrzfhv.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:28:19
+IP : ::1
+URL : http://localhost:12348/tn/
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Home\Index.ascx(13): error CS0103: The name 'ModProductService' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:34:38
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(4): error CS0246: The type or namespace name 'ModProductModel' could not be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:36:07
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(171): error CS0103: The name 'listGift' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:36:32
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Lib.Global.Utils.ShowCheckBoxByConfigkey(String configKey, String name, Int32 flag) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Global\Utils.cs:line 427
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 177
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 221
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 07:36:32
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:37:11
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Lib.Global.Utils.ShowCheckBoxByConfigkey(String configKey, String name, Int32 flag) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Global\Utils.cs:line 427
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 183
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 221
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 07:37:11
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:37:18
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Lib.Global.Utils.ShowCheckBoxByConfigkey(String configKey, String name, Int32 flag) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Global\Utils.cs:line 427
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 181
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 221
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 07:37:18
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Lib.Global.Utils.ShowCheckBoxByConfigkey(String configKey, String name, Int32 flag) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Global\Utils.cs:line 427
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 181
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 221
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 07:37:18
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:37:18
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:37:44
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Input string was not in a correct format.
+Source : mscorlib
+TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+StackTrace :    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at VSW.Lib.Global.Utils.ShowCheckBoxByConfigkey(String configKey, String name, Int32 flag) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Global\Utils.cs:line 427
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 168
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 221
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 07:37:44
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.x7o0rkty.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 07:43:50
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 21/11/2024 07:43:50
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:22:55
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:22:55
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:22:55
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:22:55
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:00
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:00
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:00
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:00
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:01
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:01
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:01
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:01
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:03
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:03
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:03
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:03
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:27
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:27
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:27
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:27
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:58
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:58
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:23:58
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:23:58
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:00
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:00
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:00
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:00
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:19
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CNews'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Design\ViewControlDesign.cs:line 448
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:19
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.42of887e.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:41
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CNews'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Design\ViewControlDesign.cs:line 448
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:41
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.42of887e.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:48
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:48
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 21/11/2024 08:24:48
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuLeft' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 402
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 279
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 273
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 21/11/2024 08:24:48
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.8hzdwg_i.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:01:09
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 22/11/2024 03:01:09
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:01:17
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 22/11/2024 03:01:17
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:01:34
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 22/11/2024 03:01:34
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:11:47
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 22/11/2024 03:11:47
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:12:10
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+StackTrace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+Time : 22/11/2024 03:12:10
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Init
+Message : Could not load type 'CKFinder.Connector.Connector'.
+Source : System.Web
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+StackTrace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:54:57
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(151): error CS1061: 'VSW.Lib.Models.ModMp3Entity' does not contain a definition for 'FileMp3' and no extension method 'FileMp3' accepting a first argument of type 'VSW.Lib.Models.ModMp3Entity' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.d3_-kpen.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:56:20
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(151): error CS1061: 'VSW.Lib.Models.ModMp3Entity' does not contain a definition for 'FileMp3' and no extension method 'FileMp3' accepting a first argument of type 'VSW.Lib.Models.ModMp3Entity' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.d3_-kpen.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 03:56:22
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(151): error CS1061: 'VSW.Lib.Models.ModMp3Entity' does not contain a definition for 'FileMp3' and no extension method 'FileMp3' accepting a first argument of type 'VSW.Lib.Models.ModMp3Entity' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.d3_-kpen.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 04:21:32
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModBrandEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModBrandService.GetByLang(Int32 langID) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Models\ModBrandModel.cs:line 180
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 8
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 218
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 22/11/2024 04:21:32
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.dsoh2ltd.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 04:24:01
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModBrandEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModBrandService.GetByLang(Int32 langID) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Models\ModBrandModel.cs:line 180
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 8
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 218
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 22/11/2024 04:24:01
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.dsoh2ltd.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 04:27:56
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx(8): error CS0103: The name 'ModAuthorService' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 191
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.dsoh2ltd.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 04:30:44
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModAuthorEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModAuthorService.GetByLang(Int32 langID) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Models\ModBrandModel.cs:line 180
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 8
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 218
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 22/11/2024 04:30:44
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.li0mgv2u.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 22/11/2024 04:31:09
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.Collections.Generic.List`1[VSW.Lib.Models.ModAuthorEntity] GetByLang(Int32)
+StackTrace :    at VSW.Lib.Models.ModAuthorService.GetByLang(Int32 langID) in D:\web\web api\duytin4\Do an\nghenhac\VSW.Lib\Models\ModBrandModel.cs:line 180
+   at ASP.tn_views_modmp3_add_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\ModMp3\Add.ascx:line 8
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.tn_views_shared_main_master.__RendervswForm(HtmlTextWriter __w, Control parameterContainer) in d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\Shared\Main.Master:line 68
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 218
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 22/11/2024 04:31:09
+IP : ::1
+URL : http://localhost:12348/tn/ModMp3/Add.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.li0mgv2u.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:29:42
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:29:43
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:29:43
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:29:43
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:30:10
+IP : ::1
+URL : http://localhost:12348/tn/SysPage/Add.aspx
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\tn\Views\SysPage\Add.ascx(32): error CS0103: The name 'ModBrandService' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_4(String directory) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPageBase.cs:line 195
+   at VSW.Core.MVC.CPViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\CPViewPage.cs:line 67
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.1b5f0318.rj9fns7z.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:30:10
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:30:10
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:31:02
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:31:02
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:31:20
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:31:20
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:31:32
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:31:32
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:31:32
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:31:32
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 09:32:02
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:vswMenuTop' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 09:32:02
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.qiv2suls.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:52:33
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:52:33
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:53:04
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:53:04
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:53:13
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:53:13
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:54:09
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:54:09
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:54:12
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:54:12
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:56:09
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:56:09
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:56:10
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:56:10
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:56:26
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:56:26
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:56:38
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:56:38
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:57:19
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:57:19
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:59:45
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:59:45
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 10:59:47
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Module/Control : 'CMp3'' not found.
+Source : VSW.Corev2.0
+TargetSite : Void Page_Load(System.Object, System.EventArgs)
+StackTrace :    at VSW.Core.Design.ViewControlDesign.Page_Load(Object sender, EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\Design\ViewControlDesign.cs:line 450
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 29/11/2024 10:59:47
+IP : ::1
+URL : http://localhost:12348/tn/Design/EditTemplate.aspx?id=29
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_design_edittemplate_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_edittemplate.aspx.f01ead8.bbtlfg5a.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 11:15:13
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\Views\CMp3\Home.ascx(45): error CS1061: 'System.Collections.Generic.List<VSW.Lib.Models.ModMp3Entity>' does not contain a definition for 'File' and no extension method 'File' accepting a first argument of type 'System.Collections.Generic.List<VSW.Lib.Models.ModMp3Entity>' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.ppylsnt6.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 29/11/2024 11:15:13
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\web api\duytin4\Do an\nghenhac\VSW.Website\Views\CMp3\Home.ascx(45): error CS1061: 'System.Collections.Generic.List<VSW.Lib.Models.ModMp3Entity>' does not contain a definition for 'File' and no extension method 'File' accepting a first argument of type 'System.Collections.Generic.List<VSW.Lib.Models.ModMp3Entity>' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\web api\duytin4\Do an\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\6b595f1e\b0334880\App_Web_default.aspx.cdcab7d2.ppylsnt6.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

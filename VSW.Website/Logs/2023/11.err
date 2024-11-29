@@ -1,0 +1,2279 @@
+Time : 09/11/2023 11:50:36
+IP : ::1
+URL : http://localhost:12348/tam-pin-mat-troi-450w-half-cell-9bb-mono.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 09/11/2023 11:52:59
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Thumbnail&type=Images&currentFolder=%2FProduct%2Fden-roi-ray%2F&langCode=vi&hash=54a1bc9288a3e7cb&FileName=den-led-roi-ray-7w-vo-trang-gled-1.gif&fileHash=202305021518-1166
+Message : Attempt by security transparent method 'ImageManipulation.Quantizer+Color32..ctor(IntPtr)' to access security critical method 'System.Runtime.InteropServices.Marshal.PtrToStructure(IntPtr, System.Type)' failed.
+
+Assembly 'CKFinder, Version=2.2.0.1326, Culture=neutral, PublicKeyToken=579e7adc719a1423' is marked with the AllowPartiallyTrustedCallersAttribute, and uses the level 2 security transparency model.  Level 2 transparency causes all methods in AllowPartiallyTrustedCallers assemblies to become security transparent by default, which may be the cause of this exception.
+Source : CKFinder
+TargetSite : Void .ctor(IntPtr)
+StackTrace :    at ImageManipulation.Quantizer.Color32..ctor(IntPtr pSourcePixel)
+   at ImageManipulation.Quantizer.FirstPass(BitmapData sourceData, Int32 width, Int32 height)
+   at ImageManipulation.Quantizer.Quantize(Image source)
+   at CKFinder.Connector.ImageTools.ResizeImage(String sourceFile, String targetFile, Int32 maxWidth, Int32 maxHeight, Boolean preserverAspectRatio, Int32 quality)
+   at CKFinder.Connector.CommandHandlers.ThumbnailCommandHandler.SendResponse(HttpResponse response)
+   at CKFinder.Connector.Connector.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 09/11/2023 11:52:59
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Thumbnail&type=Images&currentFolder=%2FProduct%2Fden-roi-ray%2F&langCode=vi&hash=54a1bc9288a3e7cb&FileName=den-led-roi-ray-7w-vo-trang-gled-1.gif&fileHash=202305021518-1166
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_content_ckfinder_core_connector_aspx_connector_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_connector.aspx.1d46bbdc.viwzlngs.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 09/11/2023 11:53:31
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Thumbnail&type=Images&currentFolder=%2FProduct%2Fden-led-thanh%2F&langCode=vi&hash=54a1bc9288a3e7cb&FileName=den-led-thanh-36-bong-x-1w-sieu-sang-gled-5.jpg&fileHash=202305021522-63
+Message : Could not find file 'D:\web\code_lam\homeled.vn\homeled\VSW.Website\Data\upload\_thumbs\Images\Product/den-led-thanh/den-led-thanh-36-bong-x-1w-sieu-sang-gled-5.jpg'.
+Source : mscorlib
+TargetSite : Void WinIOError(Int32, System.String)
+StackTrace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at CKFinder.Connector.CommandHandlers.ThumbnailCommandHandler.SendResponse(HttpResponse response)
+   at CKFinder.Connector.Connector.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 09/11/2023 11:53:31
+IP : ::1
+URL : http://localhost:12348/tn/Content/ckfinder/core/connector/aspx/connector.aspx?command=Thumbnail&type=Images&currentFolder=%2FProduct%2Fden-led-thanh%2F&langCode=vi&hash=54a1bc9288a3e7cb&FileName=den-led-thanh-36-bong-x-1w-sieu-sang-gled-5.jpg&fileHash=202305021522-63
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_content_ckfinder_core_connector_aspx_connector_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_connector.aspx.1d46bbdc.viwzlngs.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 08:29:24
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.String getdenled(System.String, Int32, Int32, Int32, Int32)
+StackTrace :    at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 606
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 08:29:24
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.vkmzzspl.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 08:29:53
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.String getdenled(System.String, Int32, Int32, Int32, Int32)
+StackTrace :    at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 606
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 08:29:53
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.vkmzzspl.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 08:33:03
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.String getdenled(System.String, Int32, Int32, Int32, Int32)
+StackTrace :    at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag)
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 08:33:03
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.4wxqrbfj.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 10:37:21
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : System.Object get_Item(Int32)
+StackTrace :    at System.Collections.ArrayList.get_Item(Int32 index)
+   at HtmlAgilityPack.HtmlNodeCollection.get_Item(Int32 index)
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 490
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 10:37:21
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.0o9u_vvo.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 11:10:07
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Login.aspx?ReturnPath=/tn/Tools/Crawl.aspx
+Message : Value cannot be null.
+Parameter name: type
+Source : mscorlib
+TargetSite : System.Object CreateInstance(System.Type, Boolean)
+StackTrace :    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at VSW.Core.Global.Class..ctor(Type module) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 28
+   at VSW.Core.MVC.CPViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\CPViewPage.cs:line 60
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 11:10:07
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Login.aspx?ReturnPath=/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.a_gas9pq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 11:10:49
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : System.Object get_Item(Int32)
+StackTrace :    at System.Collections.ArrayList.get_Item(Int32 index)
+   at HtmlAgilityPack.HtmlNodeCollection.get_Item(Int32 index)
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 486
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 11:10:49
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.sxcs3sag.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 11:12:17
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : System.Object get_Item(Int32)
+StackTrace :    at System.Collections.ArrayList.get_Item(Int32 index)
+   at HtmlAgilityPack.HtmlNodeCollection.get_Item(Int32 index)
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 486
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 11:12:17
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.sxcs3sag.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 10/11/2023 11:14:58
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : System.Object get_Item(Int32)
+StackTrace :    at System.Collections.ArrayList.get_Item(Int32 index)
+   at HtmlAgilityPack.HtmlNodeCollection.get_Item(Int32 index)
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 487
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 10/11/2023 11:14:58
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.e0t_xnhl.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/11/2023 12:05:51
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : The operation has timed out
+Source : System
+TargetSite : System.Net.WebResponse GetResponse()
+StackTrace :    at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc)
+   at HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 514
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 11/11/2023 12:05:51
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.evfbl7k8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/11/2023 12:35:25
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Add.aspx/RecordID/1204
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : Void ActionAdd(VSW.Lib.CPControllers.ModProductModel)
+StackTrace :    at VSW.Lib.CPControllers.ModProductController.ActionAdd(ModProductModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 51
+
+
+Time : 11/11/2023 12:35:25
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Add.aspx/RecordID/1204
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.h2z1xhvg.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/11/2023 12:50:27
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.String getdenled(System.String, Int32, Int32, Int32, Int32)
+StackTrace :    at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 560
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 11/11/2023 12:50:27
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.8htvkkzc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/11/2023 12:50:50
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : System.String getdenled(System.String, Int32, Int32, Int32, Int32)
+StackTrace :    at VSW.Lib.Global.Crawler.getdenled(String url, Int32 menuID, Int32 brandID, Int32 langID, Int32 totalPag) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Global\Crawler.cs:line 560
+   at ASP.tn_tools_crawl_aspx.btnRun_Click(Object sender, EventArgs e) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\tn\Tools\Crawl.aspx:line 36
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 11/11/2023 12:50:50
+IP : ::1
+URL : http://localhost:12348/tn/Tools/Crawl.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_tools_crawl_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_crawl.aspx.c327d63e.8htvkkzc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:01:07
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:03:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1109w-pt9.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:27:24
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d16012w-pnv12.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:27:41
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d17515w-pnv15.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:40:01
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d13512w-pt12.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:40:54
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d1004w-3-mau-pnt4dm.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 01:41:08
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran-panel-asia-d3512w-pt12dm.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:28
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 11/11/2023 11:23:29
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 12/11/2023 12:12:02
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 12:12:02
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/11/2023 01:53:15
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 01:53:15
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/11/2023 01:53:16
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 01:53:16
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/11/2023 01:53:36
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 01:53:36
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/11/2023 01:53:40
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 01:53:40
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 12/11/2023 01:53:41
+IP : ::1
+URL : http://localhost:12348/
+Message : The control 'CMenu:danhmucsanpham' not set Layout
+Source : VSW.Corev2.0
+TargetSite : Void RenderHtml(System.Web.UI.Control, System.String, System.String, System.String, System.String, System.String)
+StackTrace :    at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 390
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 12/11/2023 01:53:41
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.lqauqlao.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 13/11/2023 06:05:39
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 13/11/2023 06:05:40
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Message : CurrentTemplate = null
+Source : VSW.Corev2.0
+TargetSite : Void InitializeCulture()
+StackTrace :    at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 245
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 13/11/2023 06:06:07
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ASP.views_cmenu_footer_new_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CMenu\footer-new.ascx:line 50
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_news_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\Shared\News.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 220
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 13/11/2023 06:06:07
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 13/11/2023 06:06:59
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ASP.views_cmenu_footer_new_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CMenu\footer-new.ascx:line 50
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_news_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\Shared\News.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 220
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 13/11/2023 06:06:59
+IP : ::1
+URL : http://localhost:12348/he-thong-nha-thong-minh-philips.html
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:19:58
+IP : ::1
+URL : http://localhost:12348/
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 14/11/2023 02:30:13
+IP : ::1
+URL : http://localhost:12348/
+Message : D:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(2): error BC30469: Reference to a non-shared member requires an object reference.
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:13
+IP : ::1
+URL : http://localhost:12348/
+Message : D:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(2): error BC30469: Reference to a non-shared member requires an object reference.
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:13
+IP : ::1
+URL : http://localhost:12348/
+Message : D:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(2): error BC30469: Reference to a non-shared member requires an object reference.
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:56
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(35): error CS0103: The name 'count' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:56
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(35): error CS0103: The name 'count' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:56
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(35): error CS0103: The name 'count' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:30:56
+IP : ::1
+URL : http://localhost:12348/
+Message : d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\Home.ascx(35): error CS0103: The name 'count' does not exist in the current context
+Source : System.Web
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 405
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 316
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.qku1cx6o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/11/2023 02:51:45
+IP : ::1
+URL : http://localhost:12348/Content/Desktopnew/skins/-images/banner-title.gif"
+Message : Illegal characters in path.
+Source : mscorlib
+TargetSite : System.String Normalize(System.String, UInt32, Boolean, Boolean)
+StackTrace :    at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at VSW.Core.Web.Application.BeginRequest() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Web\Application.cs:line 119
+   at VSW.Lib.Web.Application.Application_BeginRequest(Object sender, EventArgs e) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Web\Application.cs:line 78
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 15/11/2023 01:50:04
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 15/11/2023 01:50:10
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran-kingled-30w-econl30ssv300t.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 26/11/2023 12:49:11
+IP : ::1
+URL : http://localhost:12348/den-led-op-tran.html
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 26/11/2023 01:31:21
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:31:21
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/11/2023 01:31:25
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:31:25
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/11/2023 01:31:33
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=46
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:31:33
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=46
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/11/2023 01:31:37
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=47
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:31:37
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=47
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/11/2023 01:31:41
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=49
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:31:41
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=49
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 26/11/2023 01:32:26
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 26/11/2023 01:32:26
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:15:38
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 27/11/2023 07:15:38
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.x-rqyuy8.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:43:46
+IP : ::1
+URL : http://localhost:12348/ajax/CheckOut.html
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+
+
+Time : 27/11/2023 07:43:51
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:43:51
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.g1pkagfn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:48:48
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:48:48
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.g1pkagfn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:51:34
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:51:34
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.g1pkagfn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:54:15
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:54:15
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.g1pkagfn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:54:47
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:54:47
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.g1pkagfn.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:55:24
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 07:55:24
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.btun3g3d.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 07:55:24
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.btun3g3d.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 09:07:58
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 09:07:58
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.ddqugn_g.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 09:40:44
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 09:40:44
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.ddqugn_g.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:17:12
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:17:12
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.ddqugn_g.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:18:55
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:18:55
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.dvg6olgq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:19:21
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:19:21
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.dvg6olgq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:20:06
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:20:06
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.xiegqnji.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:28:22
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:28:22
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.xiegqnji.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:31:48
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:31:48
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.xiegqnji.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:31:53
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Method 'VSW.Lib.Models.ModOrderEntity.Formality' not found.
+Source : mscorlib
+TargetSite : System.Object InvokeMember(System.String, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object, System.Object[], System.Reflection.ParameterModifier[], System.Globalization.CultureInfo, System.String[])
+StackTrace :    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.SetProperty(String propertyName, Object propertyValue) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 163
+   at VSW.Core.Global.DAO`1.Populate(DataRow dataRow) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 45
+   at VSW.Core.Global.DAO`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\DAO.cs:line 71
+   at VSW.Core.Models.ServiceBase`1.Populate(DataTable dataTable) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 261
+   at VSW.Core.Models.DBQuery`1.ToList() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 398
+   at VSW.Core.Models.DBQuery`1.ToList_Cache() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\DBQuery.cs:line 460
+   at VSW.Lib.CPControllers.ModOrderController.ActionIndex(ModOrderModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModOrderController.cs:line 35
+
+
+Time : 27/11/2023 10:31:53
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.xiegqnji.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 27/11/2023 10:32:34
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Add.aspx/RecordID/1
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 27/11/2023 10:32:34
+IP : ::1
+URL : http://localhost:12348/tn/ModOrder/Add.aspx/RecordID/1
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+Time : 28/11/2023 01:58:27
+IP : ::1
+URL : http://localhost:12348/ajax/CheckOut.html
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+
+
+Time : 28/11/2023 02:00:17
+IP : ::1
+URL : http://localhost:12348/ajax/UpdateCart.html?Quantity=2&Index=0
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.MAjaxController.ActionUpdateCart(UpdateCardModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\MAjaxController.cs:line 26
+
+
+Time : 28/11/2023 02:00:17
+IP : ::1
+URL : http://localhost:12348/ajax/UpdateCart.html?Quantity=2&Index=0
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+StackTrace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at VSW.Core.Global.Class.CallMethod(String methodName, Object[] args) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 62
+   at VSW.Core.MVC.ViewPageRender.RenderMethod(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageRender.cs:line 316
+   at VSW.Core.MVC.ViewPageRender.RenderPage(ViewPageBase viewPage, Controller controller, Class class, String methodName) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageRender.cs:line 87
+   at VSW.Core.MVC.ViewPageBase.nguyenthanh_3(Class class, String action) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 168
+   at VSW.Core.MVC.ViewPage.nguyenthanh_6() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 483
+   at VSW.Core.MVC.ViewPage.InitializeCulture() in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 235
+   at ASP.default_aspx.__BuildControlTree(default_aspx __ctrl) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Default.aspx:line 1
+   at ASP.default_aspx.FrameworkInitialize() in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.matcfjji.0.cs:line 0
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.matcfjji.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/11/2023 02:13:31
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : App_Web_product_home.ascx.6eb65f05._ixpygji
+TargetSite : Void __Render__control1(System.Web.UI.HtmlTextWriter, System.Web.UI.Control)
+StackTrace :    at ASP.views_cproduct_product_home_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\product_home.ascx:line 20
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_default_new_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\Shared\Default-new.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 220
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 28/11/2023 02:13:31
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.tqextmfk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 28/11/2023 02:13:31
+IP : ::1
+URL : http://localhost:12348/
+Message : Object reference not set to an instance of an object.
+Source : App_Web_product_home.ascx.6eb65f05._ixpygji
+TargetSite : Void __Render__control1(System.Web.UI.HtmlTextWriter, System.Web.UI.Control)
+StackTrace :    at ASP.views_cproduct_product_home_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\CProduct\product_home.ascx:line 20
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_default_new_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\web\code_lam\homeled.vn\homeled\VSW.Website\Views\Shared\Default-new.Master:line 4
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at VSW.Core.MVC.ViewPageBase.Render(HtmlTextWriter writer) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPageBase.cs:line 220
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 28/11/2023 02:13:31
+IP : ::1
+URL : http://localhost:12348/
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.tqextmfk.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 30/11/2023 01:29:19
+IP : ::1
+URL : http://localhost:12348/tel:0964898908
+Message : A potentially dangerous Request.Path value was detected from the client (:).
+Source : System.Web
+TargetSite : Void ValidateInputIfRequiredByConfig()
+StackTrace :    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+

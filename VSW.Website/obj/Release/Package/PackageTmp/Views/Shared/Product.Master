@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.UI.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>" xml:lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>">
+<head id="Head" runat="server">
+    <title></title>
+    <meta id="description" name="description" content="" runat="server" />
+    <meta id="keywords" name="keywords" content="" runat="server" />
+    <link id="canonical_name" name="canonical_name" rel="canonical" href="" runat="server" />
+    <link id="prev_name" name="prev_name" rel="prev" href=" " runat="server" />
+    <link id="next_name" name="next_name" rel="next" href=" " runat="server" />
+    <!-- Schema.org markup for Google+ -->
+    <meta id="schema_name" name="schema_name" itemprop="name" content="" runat="server" />
+    <meta id="schema_description" name="schema_description" itemprop="description" content="" runat="server" />
+    <meta id="schema_image" name="schema_image" itemprop="image" content="" runat="server" />
+    <!-- Open Graph data -->
+    <meta id="og_title" name="og_title" property="og:title" content="" runat="server" />
+    <meta id="og_url" name="og_url" property="og:url" content="" runat="server" />
+    <meta id="og_image" name="og_image" property="og:image" content="" runat="server" />
+    <meta id="og_description" name="og_description" property="og:description" content="" runat="server" />
+    <meta property="og:site_name" content="homeled.vn" />
+    <meta property="fb:app_id" content="732073643588940" />
+    <meta property="og:type" name="og_type" content="article" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="article:author" content="https://www.facebook.com/denthongminhhomeled" />
+    <meta property="article:publisher" content="https://www.facebook.com/denthongminhhomeled" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="author" content="homeled.vn" />
+    <meta name="copyright" content="Copyright &copy; 2019 homeled.vn" />
+    <meta name="generator" content="homeled.vn" />
+    <meta name="language" content="vietnamese" />
+    <meta name="geo.region" content="Vietnamese" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="robots" content="index,follow" />
+    <!-- font Open -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="/Content/Desktopnew/images/icon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <!-- css he thong -->
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/animate.css">
+    <link rel='stylesheet' type="text/css" href='/Content/desktop/skins/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/glasscase.min.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/style.css">
+    <!-- css sau ghep code -->
+    <link href="/Content/utils/sweetalert/sweetalert.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/custom-style.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/reponsive.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/font-akr.css">
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/skins/pe-icon-7-stroke.min.css">
+    <script type="text/javascript" src="/Content/js/library.js"></script>
+    <script type="text/javascript" src="/Content/js/data.ajax.js"></script>
+    <script type="text/javascript" src="/Content/js/app.pack.js"></script>
+    {RS:Tag_Head}
+</head>
+<body class="only-home">
+    {RS:Tag_body}
+    <form id="vswForm" runat="server">
+        <div class="page-body menu-page-child">
+            <header id="header-site">
+                <div id="header-fixed" class="header">
+                    <div class="wp-header-main">
+                        <div class="container">
+                            <div class="wp-hd-main2">
+                                <div class="row row-edit-width">
+                                    <VSW:StaticControl Code="CAdv" VSWID="vswlogo" runat="server" />
+                                    <VSW:StaticControl Code="CStatic" VSWID="vswSearchBox" runat="server" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <VSW:StaticControl Code="CMenu" VSWID="vswcmenusearch" runat="server" />
+                </div>
+            </header>
+            <!-- end header -->
+            <%--   <h1 class="hidden">Khôi nguyên</h1>--%>
+            <!-- end h1 seo -->
+            <main id="main-site">
+                <VSW:DynamicControl Code="Main" runat="server" />
+            </main>
+            <VSW:StaticControl Code="CMenu" VSWID="Cmenufooter" runat="server" />
+        </div>
+        <!-- Messenger Plugin chat Code  facebookk-->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "177265382126510");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v18.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script type="text/javascript" src="/Content/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/Content/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Content/js/owl.carousel.js"></script>
+        <!-- js zoom img ctsp -->
+        <script type="text/javascript" src="/Content/js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="/Content/js/jquery.glasscase.min.js"></script>
+        <!-- js custom -->
+        <script type="text/javascript" src="/Content/js/library.js"></script>
+        <script type="text/javascript" src="/Content/js/data.ajax.js"></script>
+        <script type="text/javascript" src="/Content/js/app.pack.js"></script>
+        <script type="text/javascript" src="/Content/js/appear.js"></script>
+        <!-- menu mobile -->
+        {RS:Tag_Footer}
+    </form>
+</body>
+</html>

@@ -1,0 +1,301 @@
+Time : 01/12/2023 06:25:26
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 01/12/2023 06:25:26
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=18
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.1k2wkx1s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 01/12/2023 06:25:29
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=46
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 01/12/2023 06:25:29
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=46
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.1k2wkx1s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 01/12/2023 06:25:38
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=47
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 01/12/2023 06:25:38
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=47
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.1k2wkx1s.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 13/12/2023 11:15:36
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Index.aspx
+Message : Object reference not set to an instance of an object.
+Source : VSW.Corev2.0
+TargetSite : Void .ctor(System.Object)
+StackTrace :    at VSW.Core.Global.Class..ctor(Object obj) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Global\Class.cs:line 23
+   at VSW.Core.MVC.Controller.TryUpdateModel(Object model, String prefix, String[] propertyExec, String[] propertyNotExec) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\Controller.cs:line 173
+   at VSW.Core.MVC.Controller.TryUpdateModel[T](T model, String prefix, Expression`1 propertyExec, Expression`1 propertyNotExec) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\Controller.cs:line 164
+   at VSW.Core.MVC.Controller.TryUpdateModel[T](T model) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\Controller.cs:line 128
+   at VSW.Lib.CPControllers.ModProductController.ValidSave1() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 208
+   at VSW.Lib.CPControllers.ModProductController.ActionIndex(ModProductModel model) in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 45
+
+
+Time : 13/12/2023 11:15:36
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Index.aspx
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.tn_default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.1b5f0318.ixgoshpq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 13/12/2023 11:17:45
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Index.aspx/MenuID/1277/BrandID/1218
+Message : item = null
+Source : VSW.Corev2.0
+TargetSite : Int32 Save(T, System.String[], System.String[], System.Collections.Generic.Dictionary`2[System.String,System.Object])
+StackTrace :    at VSW.Core.Models.ServiceBase`1.Save(T item, String[] propertyExec, String[] propertyNotExec, Dictionary`2 customField) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 200
+   at VSW.Core.Models.ServiceBase`1.Save(T item, Expression`1 propertyExec, Expression`1 propertyNotExec, Dictionary`2 customFields) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 299
+   at VSW.Core.Models.ServiceBase`1.Save(T item) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\Models\ServiceBase.cs:line 271
+   at VSW.Lib.CPControllers.ModProductController.ValidSave1() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 236
+
+
+Time : 13/12/2023 11:19:46
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Index.aspx/BrandID/1218
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : Boolean ValidSave1()
+StackTrace :    at VSW.Lib.CPControllers.ModProductController.ValidSave1() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 246
+
+
+Time : 13/12/2023 11:20:57
+IP : ::1
+URL : http://localhost:12348/tn/ModProduct/Index.aspx/BrandID/1218
+Message : Object reference not set to an instance of an object.
+Source : VSW.Libv2.0
+TargetSite : Boolean ValidSave1()
+StackTrace :    at VSW.Lib.CPControllers.ModProductController.ValidSave1() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\CPControllers\ModProductController.cs:line 246
+
+
+Time : 14/12/2023 12:22:33
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 14/12/2023 12:22:33
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.oknexwrt.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/12/2023 12:23:17
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 14/12/2023 12:23:17
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.oknexwrt.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/12/2023 12:26:10
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at VSW.Lib.Controllers.CPropertyController.OnLoad() in D:\web\code_lam\homeled.vn\homeled\VSW.Lib\Controllers\CPropertyController.cs:line 50
+   at VSW.Core.MVC.ViewPage.RenderHtml(Control control, String controlCode, String vswID, String viewLayout, String action, String defaultProperty) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 364
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 280
+   at VSW.Core.MVC.ViewPage.nguyenthanh_14(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 467
+   at VSW.Core.MVC.ViewPage.nguyenthanh_12(Control control, String custom) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 312
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 286
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.InitPage(Control control) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 290
+   at VSW.Core.MVC.ViewPage.OnLoad(EventArgs e) in D:\web\code_lam\homeled.vn\VSW.Corev2.0\MVC\ViewPage.cs:line 524
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+Time : 14/12/2023 12:26:10
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Message : Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source : System.Web
+TargetSite : Boolean HandleError(System.Exception)
+StackTrace :    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\thanh\AppData\Local\Temp\Temporary ASP.NET Files\vs\242d8e9b\cf1be703\App_Web_default.aspx.cdcab7d2.nss6muql.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Time : 14/12/2023 12:27:24
+IP : ::1
+URL : http://localhost:12348/den-led-am-tran.html?atr=51
+Unable to load DLL 'libwebp.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+

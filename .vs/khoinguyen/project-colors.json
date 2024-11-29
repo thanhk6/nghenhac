@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3d64e05c-60d8-4038-896d-3faa8d5b24d5": {
+      "ProjectGuid": "3d64e05c-60d8-4038-896d-3faa8d5b24d5",
+      "DisplayName": "VSW.Corev2.0",
+      "ColorIndex": 0
+    },
+    "b5562c31-6346-4112-bb0e-28ee11f1ac62": {
+      "ProjectGuid": "b5562c31-6346-4112-bb0e-28ee11f1ac62",
+      "DisplayName": "VSW.Website",
+      "ColorIndex": 1
+    },
+    "7aa8a6a4-c3b7-4828-8c35-d20fb26bd3c0": {
+      "ProjectGuid": "7aa8a6a4-c3b7-4828-8c35-d20fb26bd3c0",
+      "DisplayName": "VSW.Lib",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VSW.Lib</RootNamespace>
+    <AssemblyName>VSW.Libv2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\..\monngon\New folder\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="CKFinder">
+      <HintPath>..\..\CKFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="CKFinder_ImageResize">
+      <HintPath>..\..\CKFinder_ImageResize.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.3.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.3.0\lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-AnyCPU, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magick.NET-Q16-AnyCPU.6.8.8.1001\lib\net40-client\Magick.NET-AnyCPU.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.XML" />
+    <Reference Include="VSW.Brotli">
+      <HintPath>..\..\..\monngon\New folder\VSW.Brotli.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\CAdvController.cs" />
+    <Compile Include="Controllers\CCommentController.cs" />
+    <Compile Include="Controllers\CMenuController.cs" />
+    <Compile Include="Controllers\CBrandController.cs" />
+    <Compile Include="Controllers\CPropertyController.cs" />
+    <Compile Include="Controllers\CMp3Controller.cs" />
+    <Compile Include="Controllers\CStaticController.cs" />
+    <Compile Include="Controllers\CTextController.cs" />
+    <Compile Include="Controllers\CVideoController.cs" />
+    <Compile Include="Controllers\MAjaxController.cs" />
+    <Compile Include="Controllers\MContentController.cs" />
+    <Compile Include="Controllers\MBrandController.cs" />
+    <Compile Include="Controllers\MForgotController.cs" />
+    <Compile Include="Controllers\MLoginController.cs" />
+    <Compile Include="Controllers\MRegisterController.cs" />
+    <Compile Include="Controllers\MSearchController.cs" />
+    <Compile Include="Controllers\MMP3troller.cs" />
+    <Compile Include="Controllers\MVideoController.cs" />
+    <Compile Include="CPControllers\AccessDeniedController.cs" />
+    <Compile Include="CPControllers\AjaxController.cs" />
+    <Compile Include="CPControllers\ModAutoLinksController.cs" />
+    <Compile Include="CPControllers\ModAuthorController.cs" />
+    <Compile Include="CPControllers\ModCommentController.cs" />
+    <Compile Include="CPControllers\ModMp3Controller.cs" />
+    <Compile Include="CPControllers\FormTextController.cs" />
+    <Compile Include="CPControllers\HomeController.cs" />
+    <Compile Include="CPControllers\LoginController.cs" />
+    <Compile Include="CPControllers\ModAdvController.cs" />
+    <Compile Include="CPControllers\ModFileController.cs" />
+    <Compile Include="CPControllers\ModVideoController.cs" />
+    <Compile Include="CPControllers\ModWebUserController.cs" />
+    <Compile Include="CPControllers\SysMenuController.cs" />
+    <Compile Include="CPControllers\SysPageController.cs" />
+    <Compile Include="CPControllers\SysPropertyController.cs" />
+    <Compile Include="CPControllers\SysRedirectionController.cs" />
+    <Compile Include="CPControllers\SysResourceController.cs" />
+    <Compile Include="CPControllers\SysRoleController.cs" />
+    <Compile Include="CPControllers\SysSiteController.cs" />
+    <Compile Include="CPControllers\SysTemplateController.cs" />
+    <Compile Include="CPControllers\SysUserController.cs" />
+    <Compile Include="CPControllers\SysUserLogController.cs" />
+    <Compile Include="CPControllers\UserChangeInfoController.cs" />
+    <Compile Include="CPControllers\UserChangePassController.cs" />
+    <Compile Include="Design\EditPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Design\EditTemplate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global\ChangeFrequency1.cs" />
+    <Compile Include="Global\Random.cs" />
+    <Compile Include="Global\Json.cs" />
+    <Compile Include="Global\Application.cs" />
+    <Compile Include="Global\Cart.cs" />
+    <Compile Include="Global\Cookies.cs" />
+    <Compile Include="Global\CPLogin.cs" />
+    <Compile Include="Global\CPResource.cs" />
+    <Compile Include="Global\Data.cs" />
+    <Compile Include="Global\Directory.cs" />
+    <Compile Include="Global\Error.cs" />
+    <Compile Include="Global\File.cs" />
+    <Compile Include="Global\FileUpload.cs" />
+    <Compile Include="Global\Image.cs" />
+    <Compile Include="Global\IniResourceService.cs" />
+    <Compile Include="Global\IniSqlResourceService.cs" />
+    <Compile Include="Global\JavaScript.cs" />
+    <Compile Include="Global\ListItem\Item.cs" />
+    <Compile Include="Global\ListItem\List.cs" />
+    <Compile Include="Global\Mail.cs" />
+    <Compile Include="Global\Message.cs" />
+    <Compile Include="Global\ObjectCookies.cs" />
+    <Compile Include="Global\Pager.cs" />
+    <Compile Include="Global\Permissions.cs" />
+    <Compile Include="Global\Security.cs" />
+    <Compile Include="Global\Session.cs" />
+    <Compile Include="Global\Setting.cs" />
+    <Compile Include="Global\Static.cs" />
+    <Compile Include="Global\Template.cs" />
+    <Compile Include="Global\Utils.cs" />
+    <Compile Include="Global\WebLogin.cs" />
+    <Compile Include="Global\WebP.cs" />
+    <Compile Include="Global\WebResource.cs" />
+    <Compile Include="Global\Xml.cs" />
+    <Compile Include="Models\CPAccessModel.cs" />
+    <Compile Include="Models\CPRoleModel.cs" />
+    <Compile Include="Models\CPUserLogModel.cs" />
+    <Compile Include="Models\CPUserModel.cs" />
+    <Compile Include="Models\CPUserRoleModel.cs" />
+    <Compile Include="Models\ModAdvModel.cs" />
+    <Compile Include="Models\ModAutoLinksModel.cs" />
+    <Compile Include="Models\ModCleanURLModel.cs" />
+    <Compile Include="Models\ModCommentModel.cs" />
+    <Compile Include="Models\ModAuthorModel.cs" />
+    <Compile Include="Models\ModCollectionModel.cs" />
+    <Compile Include="Models\ModMp3Model.cs" />
+    <Compile Include="Models\ModPropertyModel.cs" />
+    <Compile Include="Models\ModOnlineModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ModProductFileModel.cs" />
+    <Compile Include="Models\ModVideoModel.cs" />
+    <Compile Include="Models\ModWebUserModel.cs" />
+    <Compile Include="Models\SysLangModel.cs" />
+    <Compile Include="Models\SysModuleModel.cs" />
+    <Compile Include="Models\SysPageModel.cs" />
+    <Compile Include="Models\SysSiteModel.cs" />
+    <Compile Include="Models\SysTemplateModel.cs" />
+    <Compile Include="Models\WebMenuModel.cs" />
+    <Compile Include="Models\WebPropertyModel.cs" />
+    <Compile Include="Models\WebRedirectionModel.cs" />
+    <Compile Include="Models\WebResourceModel.cs" />
+    <Compile Include="Models\WebSettingModel.cs" />
+    <Compile Include="MVC\Controller.cs" />
+    <Compile Include="MVC\CPController.cs" />
+    <Compile Include="MVC\CPModuleInfo.cs" />
+    <Compile Include="MVC\CPViewControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MVC\CPViewPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MVC\CPViewTemplate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MVC\ModuleInfo.cs" />
+    <Compile Include="MVC\ViewControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MVC\ViewPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\Application.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Global\GHTK\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VSW.Corev2.0\VSW.Corev2.0.csproj">
+      <Project>{3d64e05c-60d8-4038-896d-3faa8d5b24d5}</Project>
+      <Name>VSW.Corev2.0</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

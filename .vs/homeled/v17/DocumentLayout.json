@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|d:\\web\\web api\\duytin4\\homeled.vn\\homeled\\vsw.lib\\cpcontrollers\\modproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|solutionrelative:vsw.lib\\cpcontrollers\\modproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\vsw.lib\\cpcontrollers\\ajaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|solutionrelative:vsw.lib\\cpcontrollers\\ajaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\vsw.lib\\models\\modproductmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|solutionrelative:vsw.lib\\models\\modproductmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\vsw.lib\\models\\webresourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA8A6A4-C3B7-4828-8C35-D20FB26BD3C0}|VSW.Lib\\VSW.Lib.csproj|solutionrelative:vsw.lib\\models\\webresourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModProductController.cs",
+              "DocumentMoniker": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\CPControllers\\ModProductController.cs",
+              "RelativeDocumentMoniker": "VSW.Lib\\CPControllers\\ModProductController.cs",
+              "ToolTip": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\CPControllers\\ModProductController.cs",
+              "RelativeToolTip": "VSW.Lib\\CPControllers\\ModProductController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwB4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:11:42.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModProductModel.cs",
+              "DocumentMoniker": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\Models\\ModProductModel.cs",
+              "RelativeDocumentMoniker": "VSW.Lib\\Models\\ModProductModel.cs",
+              "ToolTip": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\Models\\ModProductModel.cs",
+              "RelativeToolTip": "VSW.Lib\\Models\\ModProductModel.cs",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAewNUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:09:41.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AjaxController.cs",
+              "DocumentMoniker": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\CPControllers\\AjaxController.cs",
+              "RelativeDocumentMoniker": "VSW.Lib\\CPControllers\\AjaxController.cs",
+              "ToolTip": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\CPControllers\\AjaxController.cs",
+              "RelativeToolTip": "VSW.Lib\\CPControllers\\AjaxController.cs",
+              "ViewState": "AQIAAGcDAAAAAAAAAAAwwHYDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:08:30.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebResourceModel.cs",
+              "DocumentMoniker": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\Models\\WebResourceModel.cs",
+              "RelativeDocumentMoniker": "VSW.Lib\\Models\\WebResourceModel.cs",
+              "ToolTip": "D:\\web\\web api\\duytin4\\homeled.vn\\homeled\\VSW.Lib\\Models\\WebResourceModel.cs",
+              "RelativeToolTip": "VSW.Lib\\Models\\WebResourceModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:08:23.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

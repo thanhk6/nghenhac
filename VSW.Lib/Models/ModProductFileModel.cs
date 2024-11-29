@@ -1,0 +1,133 @@
+﻿using System.Collections.Generic;
+using VSW.Core.Models;
+using System;
+
+namespace VSW.Lib.Models
+{
+    public class ModProductFileEntity : EntityBase
+    {
+        #region Autogen by VSW
+
+        [DataInfo]
+        public override int ID { get; set; }
+        [DataInfo]
+        public  string Title { get ; set; }
+
+        [DataInfo]
+        public int ProductID { get; set; }
+        [DataInfo]
+        public int MenuID { get; set; }
+        [DataInfo]
+        public string File { get; set; }
+
+        [DataInfo]
+        public bool Default { get; set; }
+
+        [DataInfo]
+        public int Order { get; set; }
+
+        [DataInfo]
+        public bool Activity { get; set; }
+
+        [DataInfo]
+        public DateTime Published { get; set; }
+
+        [DataInfo]
+        public DateTime Updated { get; set; }
+
+
+        #endregion Autogen by VSW
+        [DataInfo]
+        public string  Alt{get;set;}
+
+        private ModMp3Entity _oProduct;
+
+        public ModMp3Entity GetProduct()
+        {
+            if (_oProduct == null && ProductID > 0)
+                _oProduct = ModMp3Service.Instance.GetByID_Cache(ProductID);
+
+            return _oProduct ?? (_oProduct = new ModMp3Entity());
+        }
+    }
+
+    public class ModProductFileService : ServiceBase<ModProductFileEntity>
+    {
+        #region Autogen by VSW
+
+        public ModProductFileService() : base("[Mod_ProductFile]")
+        {
+        }
+
+        private static ModProductFileService _instance;
+        public static ModProductFileService Instance => _instance ?? (_instance = new ModProductFileService());
+
+        #endregion Autogen by VSW
+
+        public ModProductFileEntity GetByID(int id)
+        {
+            return CreateQuery()
+                .Where(o => o.ID == id)
+                .ToSingle();
+        }
+
+        public ModProductFileEntity GetByID_Cache(int id)
+        {
+            return CreateQuery()
+                .Where(o => o.ID == id)
+                .ToSingle_Cache();
+        }
+
+        public bool Exists(int productID, string file)
+        {
+            return CreateQuery()
+                .Where(o => o.ProductID == productID && o.File == file)
+                .Count()
+                .ToValue_Cache()
+                .ToBool();
+        }
+
+        public List<ModProductFileEntity> GetAll_Cache(int productID)
+        {
+            return CreateQuery()
+                .Where(o => o.ProductID == productID)
+                .ToList_Cache();
+        }
+
+        public void InsertOrUpdate(int productID, string[] arrFile)
+        {
+            if (arrFile == null || arrFile.Length == 0)
+            {
+                Delete(o => o.ProductID == productID);
+                return;
+            }
+
+            var listInDb = CreateQuery()
+                                .Where(o => o.ProductID == productID)
+                                .ToList_Cache();
+
+            for (var i = 0; listInDb != null && i < listInDb.Count; i++)
+            {
+                if (System.Array.IndexOf(arrFile, listInDb[i].File) < 0)
+                    Delete(listInDb[i]);
+            }
+
+            foreach (var file in arrFile)
+            {
+                if (string.IsNullOrEmpty(file)) continue;
+
+                var item = CreateQuery().Where(o => o.ProductID == productID && o.File == file).ToSingle_Cache();
+                if (item != null) continue;
+
+                item = new ModProductFileEntity()
+                {
+                    ProductID = productID,
+                    File = file,
+                    Default = false
+                };
+
+                Save(item);
+            }
+        }
+    }
+}

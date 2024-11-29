@@ -1,0 +1,73 @@
+/*!
+ * css For Code Akr
+*/
+.new {
+  !extend .fa-plus-circle;
+}
+.delete {
+  @extend .fa-times-circle;
+}
+.edit {
+  @extend .fa-pencil-square-o;
+}
+.apply, .save {
+  @extend .fa-check;
+}
+.publish, .save-new {
+  @extend .fa-check-circle;
+}
+.unpublish, .cancel {
+  @extend .fa-ban;
+}
+.copy {
+  @extend .fa-files-o;
+}
+.config {
+  @extend .fa-undo;
+}
+/*.price{
+    width: 50%
+}*/
+.custom{
+    height: 400px;
+}
+.preview img{
+    max-height: 80px;
+}
+.form-inline input, .form-inline select{
+    width: 70% !important
+}
+@media (max-width: 768px) {
+    .form-group.row > .text-right {
+        text-align: left !important;
+    }
+}
+.checkbox-list{
+    display: table-cell;
+    padding: 0.375rem 0;
+}
+.checkbox-list>label{
+    height: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.error-template {padding: 40px 15px;text-align: center;}
+
+.col-md-6 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+.form-inline input.price {
+    width: 150px !important
+}
+label.col-md-12{
+    font-weight: bold;
+}
+.datepicker{
+    width: 150px;
+}
+.itemCheckBox-row{
+    display: inline-block !important;
+}

@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.UI.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>" xml:lang="<%=VSW.Core.Web.Application.CurrentViewPage.CurrentLang.Code.ToLower() %>">
+<head id="Head" runat="server">
+    <title></title>
+    <meta id="description" name="description" content="" runat="server" />
+    <meta id="keywords" name="keywords" content="" runat="server" />
+    <link id="canonical_name" name="canonical_name" rel="canonical" href="" runat="server" />
+    <link id="prev_name" name="prev_name" rel="prev" href=" " runat="server" />
+    <link id="next_name" name="next_name" rel="next" href=" " runat="server" />
+    <!-- Schema.org markup for Google+ -->
+    <meta id="schema_name" name="schema_name" itemprop="name" content="" runat="server" />
+    <meta id="schema_description" name="schema_description" itemprop="description" content="" runat="server" />
+    <meta id="schema_image" name="schema_image" itemprop="image" content="" runat="server" />
+
+    <!-- Open Graph data -->
+    <meta id="og_title" name="og_title" property="og:title" content="" runat="server" />
+    <meta id="og_url" name="og_url" property="og:url" content="" runat="server" />
+    <meta id="og_image" name="og_image" property="og:image" content="" runat="server" />
+    <meta id="og_description" name="og_description" property="og:description" content="" runat="server" />
+    <meta property="og:site_name" content="homeled.vn" />
+    <meta property="fb:app_id" content="732073643588940" />
+    <meta property="og:type" name="og_type" content="article" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="article:author" content="https://www.facebook.com/denthongminhhomeled" />
+    <meta property="article:publisher" content="https://www.facebook.com/denthongminhhomeled" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="author" content="homeled.vn" />
+    <meta name="copyright" content="Copyright &copy; 2019 homeled.vn" />
+    <meta name="generator" content="homeled.vn" />
+    <meta name="language" content="vietnamese" />
+    <meta name="geo.region" content="Vietnamese" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="robots" content="index,follow" />
+    <link href="/Content/Desktopnew/images/icon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <!-- font Open -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- css he thong -->
+    <link rel="stylesheet" type="text/css" href="/Content/Desktopnew/skins/bootstrap.min.css">
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/animate.css") %>
+    <link type="text/css" href="/Content/Desktopnew/skins/font-awesome.min.css" rel="stylesheet" />
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/owl.carousel.css") %>
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/glasscase.min.css") %>
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/style.css") %>
+    <!-- css sau ghep code -->
+    <link href="/Content/utils/sweetalert/sweetalert.min.css" rel="stylesheet" />
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/custom-style.css") %>
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/font-akr.css") %>
+
+    <link rel="stylesheet" type="text/css" href="/Content/Desktopnew/skins/pe-icon-7-stroke.min.css">
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/reponsive.css") %>
+    <%=VSW.Core.Global.WebResource.GetCss("/Content/Desktopnew/skins/Style-new.css") %> 
+    {RS:Tag_Head}
+</head>
+<body id="header-fixed" class="only-home">
+    {RS:Tag_body}
+
+    <div class="snowEffect">
+    <canvas id="snowcanvas" height="100%" width="100%"></canvas>
+</div>
+    <form id="vswForm" runat="server">
+        <div class="page-body menu-page-child">
+            <header id="header-site">
+                <div class="er-banner-top hidden">
+                    <a class="banner-link" href="#" title="banner-top">
+                        <img src="/Content/Desktopnew/images/Online-ship.png" alt="onlineshop"></a><span class="close_top_banner">✕</span>
+                </div>
+                <div id="header-fixed" class="header">
+                    <div class="wp-header-main">
+                        <div class="container">
+                            <div class="wp-hd-main2">
+                                <div class="row row-edit-width">
+
+                                    <VSW:StaticControl Code="CAdv" VSWID="vswlogo" runat="server" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <VSW:StaticControl Code="CMenu" VSWID="vswtopnew" runat="server" />
+                </div>
+            </header>
+            <!-- end header -->
+            <%--   <h1 class="hidden">Khôi nguyên</h1>--%>
+            <!-- end h1 seo -->
+            <main id="main-site">
+                <!-- end sec bread -->
+                <VSW:DynamicControl Code="Main" runat="server" />
+                <!-- end sec banner page -->
+            </main>
+            <!-- end main -->
+            <div>
+                <VSW:StaticControl Code="CMenu" VSWID="footer-new" runat="server" />
+            </div>
+            <!-- end footer -->
+            <!-- cac modal popup bo sung -->
+            <div class="wrap" style="position: relative;">
+                <div class="bn-fixfooter" style="display: block;">
+                    <a href="javascript:;" style="display: block;" title="khoinguyen.net.vn"></a>
+                    <ul class="ul-b">
+                        <li><a href="#" target="_blank" rel="nofollow">
+                            <img src="Content/Desktopnew/images/ads-ft.jpg" alt="ads-ft" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <VSW:StaticControl Code="CStatic" DefaultLayout="How_Much" runat="server" />
+            <!-- end cac popup bo sung -->
+        </div>
+        <!-- Messenger Plugin chat Code  facebookk-->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "177265382126510");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v18.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script type="text/javascript" src="/Content/Desktopnew/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/Content/Desktopnew/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Content/Desktopnew/js/owl.carousel.js"></script>
+        <!-- js zoom img ctsp -->
+        <script type="text/javascript" src="/Content/Desktopnew/js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="/Content/Desktopnew/js/jquery.glasscase.min.js"></script>
+        <!-- js custom -->
+        <script src="/Content/js/app.pack.js"></script>
+        <script type="text/javascript" src="/Content/Desktopnew/js/data.ajax.js"></script>
+        <script src="/Content/Desktopnew/js/library.js"></script>
+        <script src="/Content/Desktopnew/js/Libraryjs.js"></script>
+        <div class="back-to-top">
+            <a href="#">
+                <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="bottom-box-fix">
+            <div>
+                <div class="textwidget">
+                    <ul class="ul-b">
+                        <li class="hotline_icon"><a class="chat_buttom" href="tel:{RS:Top_Hotline}"><i class="fa fa-phone phonering-alo-ph-img-circle"></i><span class="chat_text">Hotline: {RS:Top_Hotline}</span></a>
+                        </li>
+                        <li class="zalo_icon">
+                            <a class="chat_buttom" href="{RS:link_zalo}" target="_blank">
+                                <img class="phonering-alo-ph-img-circle" src="/Content/Desktopnew/images/icon/zalo-icon.png" alt="zalo" width="40" height="40"><span class="chat_text">Nhắn tin qua Zalo</span>
+                            </a>
+                        </li>
+                        <li class="mesenger_icon">
+                            <a class="chat_buttom" href="{RS:link_Messenger}" target="_blank">
+                                <img class="phonering-alo-ph-img-circle" src="/Content/Desktopnew/images/icon/mesenger-icon.png" alt="messenger" width="40" height="40"><span class="chat_text">Nhắn tin qua Facebook</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="icon-comment">
+                    <i class="fa fa-times" aria-hidden="true" style="display: none;"></i>
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    <span>Liên hệ</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- menu mobile -->
+        <div class="backdrop__body-backdrop___1rvky"></div>
+        <VSW:StaticControl Code="CMenu" VSWID="Menumobile" runat="server" />
+
+        {RS:Tag_Footer}
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="VSW.Lib.MVC.CPViewTemplate" %>
+
+<%@ Register Src="MenuTop.ascx" TagName="MenuTop" TagPrefix="VSW" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <title>Administration</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="nguyentatthanhk16@gmaiol.com" />
+    <meta name="generator" content="webviet24h.com" />
+
+    <link rel="shortcut icon" href="/{CPPath}/Content/skins/images/favicon.png" type="image/x-icon" />
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript"> window.jQuery || document.write("<script src=\"//code.jquery.com/jquery-1.11.3.min.js\">\x3C/script>")</script>
+    <script type="text/javascript"> window.jQuery || document.write("<script src=\"/{CPPath}/Content/add/js/jquery.min.js\">\x3C/script>")</script>
+
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/nprogress/nprogress.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/utils/zebradialog/default/zebradialog.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/extend-style.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/{CPPath}/Content/skins/css/custom.css" type="text/css" media="all" />
+    
+    <script type="text/javascript" src="/{CPPath}/Content/ckfinder/ckfinder.js"></script>
+    <script type="text/javascript">
+        var CPPath = "{CPPath}";
+        var Sys_SiteID = "<%=VSW.Core.Web.Setting.Sys_SiteID %>";
+    </script>
+
+</head>
+<body id="minwidth-body">
+    <form id="vswForm" runat="server">
+
+        MobileMode
+
+    </form>
+</body>
+</html>
