@@ -5,7 +5,7 @@ using VSW.Lib.MVC;
 namespace VSW.Lib.Controllers
 {
     [ModuleInfo(Name = "MO: Thương hiệu", Code = "MBrand", Order = 6)]
-    public class MBrandController : Controller
+    public class MAuthorController : Controller
     {
         [Core.MVC.PropertyInfo("Thương hiệu", "Type|Brand")]
         public int MenuID;

@@ -4,7 +4,7 @@ using VSW.Lib.Models;
 namespace VSW.Lib.Controllers
 {
     [ModuleInfo(Name = "ĐK: Thương hiệu", Code = "CBrand", IsControl = true, Order = 2)]
-    public class CBrandController : Controller
+    public class CAuthorController : Controller
     {
         //[Core.MVC.PropertyInfo("Default[MenuID-true|PageID-true|PageID2-false|PageSize-true],Top[MenuID-true|PageID-true|PageID2-true|PageSize-true]")]
         //public string LayoutDefine;
